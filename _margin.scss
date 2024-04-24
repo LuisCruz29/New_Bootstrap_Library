@@ -1,6 +1,7 @@
 /*
     Terminologia: 
     mg- todos los margenes
+    mg-auto margin auto
     mt- margin top
     mb- margin bottom
     ml- margin left
@@ -9,6 +10,9 @@
     mx - margin left y right
 */
 
+.mg-auto{
+    margin: auto;
+}
 
 .mg-5{
     margin: 5px ;
