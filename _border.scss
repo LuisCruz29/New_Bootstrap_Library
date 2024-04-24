@@ -1,0 +1,183 @@
+@import "ColorFondoElementos";
+
+/*
+    Terminologia: 
+    El estilo base del borde sera el solid y el color será #0A3143
+    borde -todos los bordes
+    borde-t -  border top
+    borde-b - border bottom
+    borde-l border left
+    borde-r border right
+
+    borde-c1 color1
+    borde-c2 color2
+    borde-c3 color3
+    borde-c4 color4
+    borde-c5 color5
+
+    border-ds borde dashed
+    border-dt borde dotted
+    border-dou borde double
+
+    el tamaño del border ira de 1px a 5px
+*/
+
+/*Todos los bordes*/
+.borde-1{
+    border: 1px solid $bgColor;
+}
+
+
+.borde-2{
+    border: 2px solid $bgColor;
+}
+
+.borde-3{
+    border: 3px solid $bgColor;
+}
+
+.borde-4{
+    border: 4px solid $bgColor;
+}
+
+.borde-5{
+    border: 5px solid $bgColor;
+}
+
+/*Todos los bordes top*/
+.borde-t-1{
+    border-top: 1px solid $bgColor;
+}
+
+
+.borde-t-2{
+    border-top: 2px solid $bgColor;
+}
+
+.borde-t-3{
+    border-top: 3px solid $bgColor;
+}
+
+.borde-t-4{
+    border-top: 4px solid $bgColor;
+}
+
+.borde-t-5{
+    border-top: 5px solid $bgColor;
+}
+
+/*Todos los bordes bottom*/
+.borde-b-1{
+    border-bottom: 1px solid $bgColor2;
+}
+
+
+.borde-b-2{
+    border-bottom: 2px solid $bgColor2;
+}
+
+.borde-b-3{
+    border-bottom: 3px solid $bgColor2;
+}
+
+.borde-b-4{
+    border-bottom: 4px solid $bgColor2;
+}
+
+.borde-b-5{
+    border-bottom: 5px solid $bgColor2;
+}
+
+/*Todos los bordes left*/
+
+.borde-l-1{
+    border-left: 1px solid $bgColor2;
+}
+
+
+.borde-l-2{
+    border-left: 2px solid $bgColor2;
+}
+
+.borde-l-3{
+    border-left: 3px solid $bgColor2;
+}
+
+.borde-l-4{
+    border-left: 4px solid $bgColor2;
+}
+
+.borde-l-5{
+    border-left: 5px solid $bgColor2;
+}
+
+/*Todos los bordes right*/
+
+.borde-r-1{
+    border-right: 1px solid $bgColor2;
+}
+
+
+.borde-r-2{
+    border-right: 2px solid $bgColor2;
+}
+
+.borde-r-3{
+    border-right: 3px solid $bgColor2;
+}
+
+.borde-r-4{
+    border-right: 4px solid $bgColor2;
+}
+
+.borde-r-5{
+    border-right: 5px solid $bgColor2;
+}
+
+
+/*Colores del borde*/
+
+.borde-c1{
+    border-color: #276E90;;
+}
+
+.borde-c2{
+    border-color:#3c1053 ;
+}
+
+.borde-c3{
+    border-color: #2c3e50 ;
+}
+
+.borde-c4{
+    border-color:#1F1C18 ;
+}
+
+.borde-c5{
+    border-color:#FF3B3F; ;
+}
+
+/*Estilo del borde*/
+
+.borde-ds{
+    border-style: dashed;
+}
+
+.borde-dt{
+    border-style: dotted;
+}
+
+.border-dou{
+    border-style: double;
+}
+
+
+
+
+
+
+
+
+
+
+
