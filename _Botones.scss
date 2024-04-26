@@ -124,3 +124,126 @@
     width: 100%;
     font-weight: bold;
 }
+
+/* estilos para nuestro boton transparente */
+.btn-10-transparente
+{
+    background-color: transparent;
+    color:$bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $color_seundario_2;
+    height: auto;
+    width: 10%;
+    font-weight: bold;
+}
+
+
+.btn-20-transparente
+{
+    background-color: transparent;
+    color: $bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $color_seundario_2;
+    height: auto;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn-50-transparente
+{
+    background-color: transparent;
+    color: $bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $color_seundario_2;
+    height: auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn-80-transparente
+{
+    background-color: transparent;
+    color: $bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $color_seundario_2;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+}
+
+.btn-100-transparente
+{
+    background-color: transparent;
+    color:$bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $color_seundario_2;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-10-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color:$color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid;
+    height: auto;
+    width: 10%;
+    font-weight: bold;
+}
+
+
+.btn-20-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid;
+    height: auto;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn-50-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid;
+    height: auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn-80-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+}
+
+.btn-100-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color:$color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
