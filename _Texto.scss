@@ -22,11 +22,11 @@
     txt-d-none text decoration none
     txt-d-under text decoration underline 
 
-    txt-c1 texto de color #EFEFEF
-    txt-c2 texto de color #FF3B3F
-    text-c3 texto de color #3c1053
-    txt-c4 texto de color #0A3143
-    txt-c5 txto de color #2c3e50
+    txt-c1 texto de color #0f2145
+    txt-c2 texto de color #5e6a83
+    text-c3 texto de color #ca024f
+    txt-c4 texto de color #fbfdff
+    txt-c5 txto de color #0255a5
 
     txt-tmr fonto family times new roman
     txt-arial arial
@@ -83,7 +83,7 @@
     font-size: 45px;
 }
 
-.txt-40{
+.txt-50{
     font-size: 50px;
 }
 
@@ -105,23 +105,23 @@
 
 
 .txt-c1{
-    color: $Color_Cuatro;
+    color: $color_title;
 }
 
 .txt-c2{
-    color: $Color_Cinco ;
+    color: $color_text_gray ;
 }
 
 .txt-c3{
-    color: $bgColor2;
+    color: $color_secundario_rojo;
 }
 
 .txt-c4{
-    color: $Color_Tres ;
+    color: $color_text_white;
 }
 
 .txt-c5{
-    color: $bgColor1;
+    color: $bg_principal_3;
 }
 
 .txt-tmr{
