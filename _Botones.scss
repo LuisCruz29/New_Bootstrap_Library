@@ -368,3 +368,124 @@
     width: 100%;
     font-weight: bold;
 }
+
+/* Estilos para nuestro boton numero 4*/
+.btn-10-cuatro
+{
+    background-color: $color_secundario_rojo;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 10%;
+    font-weight: bold;
+}
+
+.btn-20-cuatro
+{
+    background-color: $color_secundario_rojo;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn-50-cuatro
+{
+    background-color: $color_secundario_rojo;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10; 
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn-80-cuatro
+{
+    background-color: $color_secundario_rojo;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+}
+
+.btn-100-cuatro
+{
+    background-color: $color_secundario_rojo;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-10-cuatro:hover
+{
+    background-color: $color_secundario;
+    color:$color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 10%;
+    font-weight: bold;
+}
+
+.btn-20-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn-50-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn-80-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+}
+
+.btn-100-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $bg_princpal_2;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
