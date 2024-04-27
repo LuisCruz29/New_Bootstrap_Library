@@ -62,7 +62,7 @@
     @extend .txt-bold;
 }
 
-/* Estilos para la alerta numero 4 */
+/* Estilos para la alerta numero 4 color gris*/
 
 .alert-gris-bd
 {
@@ -76,6 +76,25 @@
 .alert-gris-sbd
 {
     background-color: $color_text_gray;
+    @extend .pd-10;
+    color: $color_text_white;
+    @extend .txt-bold;
+}
+
+/* Estilos para la alerta numero 5 color azul */
+
+.alert-azul-bd
+{
+    background-color: $color_seundario_2;
+    @extend .pd-10;
+    color: $color_text_white;
+    @extend .redondear-1;;
+    @extend .txt-bold;
+}
+
+.alert-azul-sbd
+{
+    background-color: $color_seundario_2;
     @extend .pd-10;
     color: $color_text_white;
     @extend .txt-bold;
