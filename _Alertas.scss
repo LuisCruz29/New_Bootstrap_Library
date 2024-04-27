@@ -42,3 +42,22 @@
     color: $color_text_gray;
     @extend .txt-bold;
 }
+
+/* Estilos para la alerta numero 3 */
+
+.alert-error-bd
+{
+    background-color: $color_secundario_rojo;
+    @extend .pd-10;
+    color: #fbfdff;
+    @extend .redondear-1;
+    @extend .txt-bold;
+}
+
+.alert-error-sbd
+{
+    background-color: $color_secundario_rojo;
+    @extend .pd-10;
+    color: #fbfdff;
+    @extend .txt-bold;
+}
