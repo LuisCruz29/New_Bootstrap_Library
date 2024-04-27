@@ -146,3 +146,52 @@
     }
     
 }
+
+/*Creando anchos que se apliquen cuando la resolucion sea mayor de 1024px*/
+
+@media (min-width:1024px){
+    .bg-wd-100{
+        width: 100%;
+    }
+    
+    .bg-wd-90{
+        width: 90%;
+    }
+    
+    .bg-wd-80{
+        width: 80%;
+    }
+    
+    .bg-wd-70{
+        width: 70%;
+    }
+    
+    .bg-wd-60{
+        width: 60%;
+    }
+    
+    .bg-wd-50{
+        width: 50%;
+    }
+    
+    .bg-wd-40{
+        width: 40%;
+    }
+    
+    .bg-wd-30{
+        width: 30%;
+    }
+    
+    .bg-wd-20{
+        width: 20%;
+    }
+    
+    .bg-wd-10{
+        width: 10%;
+    }
+    
+    .bg-wd-auto{
+        width: auto;
+    }
+    
+}
