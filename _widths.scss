@@ -100,7 +100,7 @@
 
 /*Creando anchos que se apliquen cuando la resolucion sea menor de 1023px*/
 
-@media (max-width:1023px){
+@media (min-width:501px) and (max-width: 1023px){
     .md-wd-100{
         width: 100%;
     }
