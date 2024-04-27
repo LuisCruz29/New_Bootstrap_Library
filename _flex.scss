@@ -820,7 +820,7 @@
     }
 }
 
-/*Estilos de flex que se activan desde resoluciones mayores a de 1024px*/
+/*Estilos de flex que se activan hasta resoluciones mayores a de 1024px*/
 @media (min-width:1024px){
     .bg-flex{
         display: flex;
