@@ -1,0 +1,25 @@
+/* tengamos en cuenta estos prefijos en la clas  sbd : sin border radius, bd : con border radius*/
+
+@import "padding";
+@import "ColorFondoElementos";
+@import "Texto";
+@import "redondear";
+
+
+/*estilos para la alerta numero 1*/
+.alert-exito-bd
+{
+    background-color:$color_alerta_exito;
+    @extend .pd-10;
+    color: $color_border;
+    @extend .txt-bold;
+    @extend .redondear-1;
+}
+
+.alert-exito-sbd
+{
+    background-color:$color_alerta_exito;
+    @extend .pd-10;
+    color: $color_border;
+    @extend .txt-bold;
+}
