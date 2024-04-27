@@ -61,3 +61,22 @@
     color: #fbfdff;
     @extend .txt-bold;
 }
+
+/* Estilos para la alerta numero 4 */
+
+.alert-gris-bd
+{
+    background-color: $color_text_gray;
+    @extend .pd-10;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .txt-bold;
+}
+
+.alert-gris-sbd
+{
+    background-color: $color_text_gray;
+    @extend .pd-10;
+    color: $color_text_white;
+    @extend .txt-bold;
+}
