@@ -1,0 +1,262 @@
+@import "ColorFondoElementos";
+@import "padding";
+@import "Texto";
+@import "redondear.scss";
+@import "border";
+
+@mixin propiedades($Color_fondo,$Color_texto,$display:inline){
+    background-color: $Color_fondo;
+    color: $Color_texto;
+  
+    display: $display; 
+}
+
+.badge-1-sm{
+    @include propiedades($bg_princpal_2, $color_seundario_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-15;
+}
+
+.badge-1-md{
+    @include propiedades($bg_princpal_2, $color_seundario_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-20;
+}
+
+.badge-1-bg{
+    @include propiedades($bg_princpal_2, $color_seundario_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-25;
+}
+
+
+.badge-2-sm{
+    @include propiedades($color_alerta_exito, $color_text_white);
+    @extend .borde-2-s-c5;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-15;
+}
+
+.badge-2-md{
+    @include propiedades($color_alerta_exito, $color_text_white);
+    @extend .borde-2-s-c5;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-20;
+}
+
+.badge-2-bg{
+    @include propiedades($color_alerta_exito, $color_text_white);
+    @extend .borde-2-s-c5;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-25;
+}
+
+.badge-3-sm{
+    @include propiedades($bg_principal_3, $bg_princpal_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-15;
+}
+
+.badge-3-md{
+    @include propiedades($bg_principal_3, $bg_princpal_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-20;
+}
+
+.badge-3-bg{
+    @include propiedades($bg_principal_3, $bg_princpal_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-25;
+}
+
+.badge-4-sm{
+    @include propiedades($color_secundario, $bg_princpal_2);
+    @extend .borde-1-s-c3;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-15;
+}
+
+.badge-4-md{
+    @include propiedades($color_secundario, $bg_princpal_2);
+    @extend .borde-1-s-c3;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-20;
+}
+
+.badge-4-bg{
+    @include propiedades($color_secundario, $bg_princpal_2);
+    @extend .borde-1-s-c3;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-25;
+}
+
+.badge-5-sm{
+    @include propiedades($color_secundario_rojo, $color_text_white);
+    @extend .borde-1-s-c2;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-15;
+}
+
+.badge-5-md{
+    @include propiedades($color_secundario_rojo, $color_text_white);
+    @extend .borde-1-s-c2;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-20;
+}
+
+.badge-5-bg{
+    @include propiedades($color_secundario_rojo, $color_text_white);
+    @extend .borde-1-s-c2;
+    @extend .redondear-1;
+    @extend .pd-5;
+    @extend .txt-25;
+}
+
+.badge-circular-c1-sm{
+    @include propiedades($color_secundario_rojo, $color_text_white);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-15;
+   
+}
+
+.badge-circular-c1-md{
+    @include propiedades($color_secundario_rojo, $color_text_white);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-20;
+}
+
+.badge-circular-c1-bg{
+    @include propiedades($color_secundario_rojo, $color_text_white);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-25;
+    
+}
+
+.badge-circular-c2-sm{
+    @include propiedades($bg_princpal_2, $color_seundario_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-15;
+   
+}
+
+.badge-circular-c2-md{
+    @include propiedades($bg_princpal_2, $color_seundario_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-20;
+}
+
+.badge-circular-c2-bg{
+    @include propiedades($bg_princpal_2 , $color_seundario_2);
+    @extend .borde-1-s-c1;
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-25;
+}
+
+.badge-circular-c3-sm{
+    @include propiedades($bg_principal_3, $bg_princpal_2);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-15;
+   
+}
+
+.badge-circular-c3-md{
+    @include propiedades($bg_principal_3, $bg_princpal_2);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-20;
+}
+
+.badge-circular-c3-bg{
+    @include propiedades($bg_principal_3, $bg_princpal_2);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-25;
+}
+
+.badge-circular-c4-sm{
+    @include propiedades($color_secundario, $bg_princpal_2);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-15;
+   
+}
+
+.badge-circular-c4-md{
+    @include propiedades($color_secundario, $bg_princpal_2);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-20;
+}
+
+.badge-circular-c4-bg{
+    @include propiedades($color_secundario, $bg_princpal_2);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-25;
+    
+}
+
+.badge-circular-c5-sm{
+    @include propiedades($color_alerta_exito, $color_text_white);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-15;
+   
+}
+
+.badge-circular-c5-md{
+    @include propiedades($color_alerta_exito, $color_text_white);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-20;
+}
+
+.badge-circular-c5-bg{
+    @include propiedades($color_alerta_exito, $color_text_white);
+    @extend .redondear-circulo;
+    @extend .pd-10;
+    @extend .txt-25;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
