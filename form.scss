@@ -5,14 +5,9 @@
 @import "border";
 @import "Texto";
 
-
 body {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 form {
@@ -20,6 +15,7 @@ form {
     flex-direction: column;
     gap: 5px;
     width: 300px;
+    height: auto;
     border: 1px solid black;
     padding: 20px;
 }
@@ -40,10 +36,4 @@ label {
 
 input {
     width: 100%;
-}
-
-.submit-button {
-    margin-top: 20px;
-    align-self: center;
-    padding: 10px 20px;
 }
