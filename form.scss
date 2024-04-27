@@ -1,3 +1,11 @@
+@import "ColorFondoElementos";
+@import "redondear";
+@import "padding";
+@import "Botones";
+@import "border";
+@import "Texto";
+
+
 body {
     margin: 0;
     padding: 0;
@@ -11,9 +19,13 @@ form {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 300px; /* Ajusta el ancho del formulario según sea necesario */
+    width: 300px;
     border: 1px solid black;
     padding: 20px;
+}
+
+form button {
+    align-self: center;
 }
 
 .row {
@@ -33,5 +45,5 @@ input {
 .submit-button {
     margin-top: 20px;
     align-self: center;
-    padding: 10px 20px; /* Ajusta el padding para cambiar el tamaño del botón */
+    padding: 10px 20px;
 }
