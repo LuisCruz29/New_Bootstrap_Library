@@ -247,3 +247,124 @@
     width: 100%;
     font-weight: bold;
 }
+
+/* Creando estilo para nuestro boton 3 */ 
+.btn-10-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 10%;
+    font-weight: bold;
+}
+
+.btn-20-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn-50-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn-80-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+}
+
+.btn-100-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn-10-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 10%;
+    font-weight: bold;
+}
+
+.btn-20-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn-50-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.btn-80-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 80%;
+    font-weight: bold;
+}
+
+.btn-100-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 100%;
+    font-weight: bold;
+}
