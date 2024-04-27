@@ -1,0 +1,234 @@
+@import "ColorFondoElementos";
+
+/*
+    Terminologia: 
+    el tamaño del border ira de 1px a 5px
+    con los colores
+    #3e31fa
+    #ca024f
+    #f2be4e
+    #5e6a83
+    #2AAC0A
+    estilos borde:
+        solid
+        dashed
+        
+
+*/
+
+@mixin bordes($ancho,$estilo,$color){
+    border: $ancho $estilo $color;
+}
+
+/* ESTILOS borde de 1px a 5px estilo solid y color #3e31fa */
+.borde-1-s-c1{
+    @include bordes(1px,solid,$color_seundario_2);
+}
+
+.borde-2-s-c1{
+    @include bordes(2px,solid,$color_seundario_2);
+}
+
+.borde-3-s-c1{
+    @include bordes(3px,solid,$color_seundario_2);
+}
+
+.borde-4-s-c1{
+    @include bordes(4px,solid,$color_seundario_2);
+}
+
+.borde-5-s-c1{
+    @include bordes(5px,solid,$color_seundario_2);
+}
+
+/* ESTILOS borde de 1px a 5px estilo dashed  y color #3e31fa */
+.borde-1-ds-c1{
+    @include bordes(1px,dashed,$color_seundario_2);
+}
+
+.borde-2-ds-c1{
+    @include bordes(2px,dashed,$color_seundario_2);
+}
+
+.borde-3-ds-c1{
+    @include bordes(3px,dashed,$color_seundario_2);
+}
+
+.borde-4-ds-c1{
+    @include bordes(4px,dashed,$color_seundario_2);
+}
+
+.borde-5-ds-c1{
+    @include bordes(5px,dashed,$color_seundario_2);
+}
+
+
+/* ESTILOS borde de 1px a 5px estilo solid y color #ca024f */
+.borde-1-s-c2{
+    @include bordes(1px,solid,$color_secundario_rojo);
+}
+
+.borde-2-s-c2{
+    @include bordes(2px,solid,$color_secundario_rojo);
+}
+
+.borde-3-s-c2{
+    @include bordes(3px,solid,$color_secundario_rojo);
+}
+
+.borde-4-s-c2{
+    @include bordes(4px,solid,$color_secundario_rojo);
+}
+
+.borde-5-s-c2{
+    @include bordes(5px,solid,$color_secundario_rojo);
+}
+
+/* ESTILOS borde de 1px a 5px estilo dashed  y color #ca024f */
+.borde-1-ds-c2{
+    @include bordes(1px,dashed,$color_secundario_rojo);
+}
+
+.borde-2-ds-c2{
+    @include bordes(2px,dashed,$color_secundario_rojo);
+}
+
+.borde-3-ds-c2{
+    @include bordes(3px,dashed,$color_secundario_rojo);
+}
+
+.borde-4-ds-c2{
+    @include bordes(4px,dashed,$color_secundario_rojo);
+}
+
+.borde-5-ds-c2{
+    @include bordes(5px,dashed,$color_secundario_rojo);
+}
+
+
+/* ESTILOS borde de 1px a 5px estilo solid y color #f2be4e*/
+.borde-1-s-c3{
+    @include bordes(1px,solid,$color_secundario);
+}
+
+.borde-2-s-c3{
+    @include bordes(2px,solid,$color_secundario);
+}
+
+.borde-3-s-c3{
+    @include bordes(3px,solid,$color_secundario);
+}
+
+.borde-4-s-c3{
+    @include bordes(4px,solid,$color_secundario);
+}
+
+.borde-5-s-c3{
+    @include bordes(5px,solid,$color_secundario);
+}
+
+/* ESTILOS borde de 1px a 5px estilo dashed  y color #f2be4e */
+.borde-1-ds-c3{
+    @include bordes(1px,dashed,$color_secundario);
+}
+
+.borde-2-ds-c3{
+    @include bordes(2px,dashed,$color_secundario);
+}
+
+.borde-3-ds-c3{
+    @include bordes(3px,dashed,$color_secundario);
+}
+
+.borde-4-ds-c3{
+    @include bordes(4px,dashed,$color_secundario);
+}
+
+.borde-5-ds-c3{
+    @include bordes(5px,dashed,$color_secundario);
+}
+
+/* ESTILOS borde de 1px a 5px estilo solid y color #5e6a83*/
+.borde-1-s-c4{
+    @include bordes(1px,solid,$color_text_gray);
+}
+
+.borde-2-s-c4{
+    @include bordes(2px,solid,$color_text_gray);
+}
+
+.borde-3-s-c4{
+    @include bordes(3px,solid,$color_text_gray);
+}
+
+.borde-4-s-c4{
+    @include bordes(4px,solid,$color_text_gray);
+}
+
+.borde-5-s-c4{
+    @include bordes(5px,solid,$color_text_gray);
+}
+
+/* ESTILOS borde de 1px a 5px estilo dashed  y color #5e6a83 */
+.borde-1-ds-c4{
+    @include bordes(1px,dashed,$color_text_gray);
+}
+
+.borde-2-ds-c4{
+    @include bordes(2px,dashed,$color_text_gray);
+}
+
+.borde-3-ds-c4{
+    @include bordes(3px,dashed,$color_text_gray);
+}
+
+.borde-4-ds-c4{
+    @include bordes(4px,dashed,$color_text_gray);
+}
+
+.borde-5-ds-c4{
+    @include bordes(5px,dashed,$color_text_gray);
+}
+
+/* ESTILOS borde de 1px a 5px estilo solid y color #2AAC0A*/
+.borde-1-s-c5{
+    @include bordes(1px,solid,$color_border);
+}
+
+.borde-2-s-c5{
+    @include bordes(2px,solid,$color_border);
+}
+
+.borde-3-s-c5{
+    @include bordes(3px,solid,$color_border);
+}
+
+.borde-4-s-c5{
+    @include bordes(4px,solid,$color_border);
+}
+
+.borde-5-s-c5{
+    @include bordes(5px,solid,$color_border);
+}
+
+/* ESTILOS borde de 1px a 5px estilo dashed  y color #2AAC0A */
+.borde-1-ds-c5{
+    @include bordes(1px,dashed,$color_border);
+}
+
+.borde-2-ds-c5{
+    @include bordes(2px,dashed,$color_border);
+}
+
+.borde-3-ds-c5{
+    @include bordes(3px,dashed,$color_border);
+}
+
+.borde-4-ds-c5{
+    @include bordes(4px,dashed,$color_border);
+}
+
+.borde-5-ds-c5{
+    @include bordes(5px,dashed,$color_border);
+}
+
