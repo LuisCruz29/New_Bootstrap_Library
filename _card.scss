@@ -137,6 +137,7 @@
     @extend .mg-10;
     @extend .txt-fgm;
     overflow: hidden;
+    text-transform: lowercase;
 }
 
 .card_3{
@@ -180,4 +181,66 @@
     opacity: 1;
     transition: all 2s;
     transform: translateY(-3%);//para que se eleve en el eje y
+}
+
+/*********************************************************/
+/*            CARD NUMERO 4 ROTATIVA                     */
+/*********************************************************/
+
+.card_4{
+    height: 500px;
+    margin: 15px;
+    @extend .Sombra-basicona;
+    overflow: hidden;
+    width: 350px;  
+    border-radius: 15px;
+}
+
+.card_4{
+    img{
+        height: 500px;
+        width: 350px;
+        border-radius: 3px;
+    }
+
+    .intro{
+        height: 80px; 
+        width: 353px;
+        box-sizing: border-box;
+        position: absolute;
+        background-color: black; 
+        color: aliceblue;
+        padding: 6px;
+        bottom: 117px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        h1{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+            margin: 20px;
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+}  
+
+.card_4:hover{
+    cursor: pointer;
+    transform: rotateY(-3%);
+}
+
+.card_4:hover .intro{
+    height: 180px;
+    background: chartreuse;
+    bottom: 117px;
+}
+
+.card_3:hover  p{
+    opacity: 1;
+    visibility: visible;
+    
 }
