@@ -1,0 +1,245 @@
+.grid{
+    display: grid;
+}
+
+.grid-template-col-1{
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+.grid-template-col-2{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.grid-template-col-3{
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+.grid-template-col-4{
+    grid-template-columns: repeat(4,minmax(0,1fr));
+}
+
+.grid-template-col-5{
+    grid-template-columns: repeat(5,minmax(0,1fr));
+}
+
+.grid-template-col-6{
+    grid-template-columns: repeat(6,minmax(0,1fr));
+}
+
+
+.grid-template-row-1{
+    grid-template-rows: repeat(1,minmax(0,1fr));
+}
+
+.grid-template-row-2{
+    grid-template-rows: repeat(2,minmax(0,1fr));
+}
+
+.grid-template-row-3{
+    grid-template-rows: repeat(3,minmax(0,1fr));
+}
+
+.grid-template-row-4{
+    grid-template-rows: repeat(4,minmax(0,1fr));
+}
+
+.grid-template-row-5{
+    grid-template-rows: repeat(5,minmax(0,1fr));
+}
+
+.grid-template-row-6{
+    grid-template-rows: repeat(6,minmax(0,1fr));
+}
+
+.grid-col-start-1{
+    grid-column-start: 1;
+}
+
+.grid-col-start-2{
+    grid-column-start: 2;
+}
+
+.grid-col-start-3{
+    grid-column-start: 3;
+}
+
+.grid-col-start-4{
+    grid-column-start: 4;
+}
+
+.grid-col-start-5{
+    grid-column-start: 5;
+}
+
+.grid-col-start-6{
+    grid-column-start: 6;
+}
+
+.grid-col-start-7{
+    grid-column-start: 7;
+}
+
+.grid-col-end-1{
+    grid-column-end: 1;
+}
+
+.grid-col-end-2{
+    grid-column-end: 2;
+}
+
+.grid-col-end-3{
+    grid-column-end: 3;
+}
+
+.grid-col-end-4{
+    grid-column-end: 4;
+}
+
+.grid-col-end-5{
+    grid-column-end: 5;
+}
+
+.grid-col-end-6{
+    grid-column-end: 6;
+}
+
+.grid-col-end-7{
+    grid-column-end: 7;
+}
+
+.grid-row-start-1{
+    grid-row-start: 1;
+}
+
+.grid-row-start-2{
+    grid-row-start: 2;
+}
+
+.grid-row-start-3{
+    grid-row-start: 3;
+}
+
+.grid-row-start-4{
+    grid-row-start: 4;
+}
+
+.grid-row-start-5{
+    grid-row-start: 5;
+}
+
+.grid-row-start-6{
+    grid-row-start: 6;
+}
+
+.grid-row-start-7{
+    grid-row-start: 7;
+}
+
+.grid-row-end-1{
+    grid-row-end: 1;
+}
+
+.grid-row-end-2{
+    grid-row-end: 2;
+}
+
+.grid-row-end-3{
+    grid-row-end: 3;
+}
+
+.grid-row-end-4{
+    grid-row-end: 4;
+}
+
+.grid-row-end-5{
+    grid-row-end: 5;
+}
+
+.grid-row-end-6{
+    grid-row-end: 6;
+}
+
+.grid-row-end-7{
+    grid-row-end: 7;
+}
+
+.col-gap-0{
+    column-gap: 0;
+}
+
+.col-gap-2{
+    column-gap: 2px;
+}
+
+.col-gap-5{
+    column-gap: 5px;
+}
+
+.col-gap-10{
+    column-gap: 10px;
+}
+
+.col-gap-15{
+    column-gap: 15px;
+}
+
+.col-gap-20{
+    column-gap: 20px;
+}
+
+.row-gap-0{
+    row-gap: 0;
+}
+
+.row-gap-2{
+    row-gap: 2px;
+}
+
+.row-gap-5{
+    row-gap: 5px;
+}
+
+.row-gap-10{
+    row-gap: 10px;
+}
+
+.row-gap-15{
+    row-gap: 15px;
+}
+
+.row-gap-20{
+    row-gap: 20px;
+}
+
+.justify-items-start{
+    justify-items: start;
+}
+
+.justify-items-end{
+    justify-items: end;
+}
+
+.justify-items-center{
+    justify-items: center;
+}
+
+.justify-items-stretch{
+    justify-items: stretch;
+}
+
+.justify-self-start{
+    justify-self: start;
+}
+
+.justify-self-end{
+    justify-self: end;
+}
+
+.justify-self-center{
+    justify-self: center;
+}
+
+.justify-self-stretch{
+    justify-self: stretch;
+}
+
