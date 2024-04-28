@@ -63,3 +63,62 @@
         }
     }
 }
+
+
+/*********************************************************/
+/*            CARD NUMERO 2 MOVIMIENTO EN X              */
+/*********************************************************/
+.Tarjeta__2{
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden; //hace que la img se vea mas grande que el contenedor xd 
+    background: $bg_princpal_2;
+    @extend .Sombra-basicona;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.Tarjeta__2:hover{
+    transform: translateX(-3%);//para que se eleve en el eje y
+}
+
+.Tarjeta__2 img{
+    width: 100%;
+    height: 230px;
+}
+
+.Tarjeta__2{
+    .card2__contenido:nth-child(2){
+        @extend .pd-15;
+        @extend  .txt-c;
+
+        p{
+            line-height: 1.5; //hace que la linia de p tenga un espacido
+            color: $color_title;
+        }
+
+        h3{
+            font-weight: 400;//le reducimos el color negrita
+            @extend .mb-15;
+        }
+
+        a{
+            @extend .mt-15;
+            display: inline-block;
+            @extend .pd-10;
+            color: $color_title;
+            @extend .txt-d-none;
+            border: 1px solid $color_text_gray;
+            border-radius: 4px;
+            transition: all 400ms ease;
+
+        }
+
+        a:hover{
+            background-color: $color_text_gray;
+            color: $bg_principal;
+        }
+    }
+}
