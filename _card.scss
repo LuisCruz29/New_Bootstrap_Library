@@ -4,6 +4,7 @@
 @import 'border';
 @import 'padding';
 @import 'margin';
+@import 'mover.scss';
 /*********************************************************/
 /*            CARD NUMERO 1 MOVIMIENTO EN Y              */
 /*********************************************************/
@@ -184,16 +185,18 @@
 }
 
 /*********************************************************/
-/*            CARD NUMERO 4 ROTATIVA                     */
+/*            CARD NUMERO 4 CABALLADA                    */
 /*********************************************************/
 
 .card_4{
+    font-family: sans-serif;
     height: 500px;
-    margin: 15px;
+    @extend .mg-15;
     @extend .Sombra-basicona;
     overflow: hidden;
     width: 350px;  
     border-radius: 15px;
+    transition: all 400ms;
 }
 
 .card_4{
@@ -203,44 +206,58 @@
         border-radius: 3px;
     }
 
-    .intro{
-        height: 80px; 
-        width: 353px;
-        box-sizing: border-box;
-        position: absolute;
-        background-color: black; 
-        color: aliceblue;
-        padding: 6px;
-        bottom: 117px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        h1{
-            font-size: 30px;
-            text-align: center;
-        }
-
-        p{
-            text-align: center;
-            margin: 20px;
-            visibility: hidden;
-            opacity: 0;
-        }
-    }
 }  
 
-.card_4:hover{
-    cursor: pointer;
-    transform: rotateY(-3%);
+.card_4{
+    .intro{
+        height: 80px; 
+        width: 350px;
+        box-sizing: border-box;
+        @extend .absolute;
+        background-color: #0f214580;
+        color: $color_text_white;
+        @extend .pl-20;
+        @extend .pr-10;
+        @extend .pb-10;
+        bottom: 110px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: all 500ms;
+    }
 }
 
+.into{
+    h1{
+        @extend .mg-10;
+    }
+    p{
+        @extend .txt-c;
+        visibility: hidden;
+        @extend  .txt-20;
+    }
+}
+
+/*
+.card_4:hover{
+    transform: translateY(-2%);
+    cursor: pointer;
+    .intro{
+        top: 320px;
+        transition: 400ms all;
+    }
+}*/
 .card_4:hover .intro{
     height: 180px;
-    background: chartreuse;
-    bottom: 117px;
+    background-color: #0f214580;
+    transition: all 400ms;
+    cursor: pointer;
 }
 
 .card_3:hover  p{
     opacity: 1;
     visibility: visible;
-    
+}
+
+.intro:hover img{
+    transform: scale(1.1);
 }
