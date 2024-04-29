@@ -1,0 +1,263 @@
+@import '_U-sombras';
+@import '_ColorFondoElementos';
+@import '_Texto';
+@import 'border';
+@import 'padding';
+@import 'margin';
+@import 'mover.scss';
+/*********************************************************/
+/*            CARD NUMERO 1 MOVIMIENTO EN Y              */
+/*********************************************************/
+.Tarjeta__1{
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden; //hace que la img se vea mas grande que el contenedor xd 
+    background: $bg_princpal_2;
+    @extend .Sombra-basicona;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.Tarjeta__1:hover{
+    transform: translateY(-3%);//para que se eleve en el eje y
+}
+
+
+
+.Tarjeta__1 img{
+    width: 100%;
+    height: 230px;
+}
+
+.Tarjeta__1{
+    .card1__contenido:nth-child(2){
+        @extend .pd-15;
+        @extend  .txt-c;
+
+        p{
+            line-height: 1.5; //hace que la linia de p tenga un espacido
+            color: $color_title;
+        }
+
+        h3{
+            font-weight: 400;//le reducimos el color negrita
+            @extend .mb-15;
+        }
+
+        a{
+            @extend .mt-15;
+            display: inline-block;
+            @extend .pd-10;
+            color: $color_title;
+            @extend .txt-d-none;
+            border: 1px solid $color_text_gray;
+            border-radius: 4px;
+            transition: all 400ms ease;
+
+        }
+
+        a:hover{
+            background-color: $color_text_gray;
+            color: $bg_principal;
+        }
+    }
+}
+
+
+/*********************************************************/
+/*            CARD NUMERO 2 MOVIMIENTO EN X              */
+/*********************************************************/
+.Tarjeta__2{
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden; //hace que la img se vea mas grande que el contenedor xd 
+    background: $bg_princpal_2;
+    @extend .Sombra-basicona;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.Tarjeta__2:hover{
+    transform: translateX(-3%);//para que se eleve en el eje y
+}
+
+.Tarjeta__2 img{
+    width: 100%;
+    height: 230px;
+}
+
+.Tarjeta__2{
+    .card2__contenido:nth-child(2){
+        @extend .pd-15;
+        @extend  .txt-c;
+
+        p{
+            line-height: 1.5; //hace que la linia de p tenga un espacido
+            color: $color_title;
+        }
+
+        h3{
+            font-weight: 400;//le reducimos el color negrita
+            @extend .mb-15;
+        }
+
+        a{
+            @extend .mt-15;
+            display: inline-block;
+            @extend .pd-10;
+            color: $color_title;
+            @extend .txt-d-none;
+            border: 1px solid $color_text_gray;
+            border-radius: 4px;
+            transition: all 400ms ease;
+
+        }
+
+        a:hover{
+            background-color: $color_text_gray;
+            color: $bg_principal;
+        }
+    }
+}
+
+/*********************************************************/
+/*            CARD NUMERO 3 DESCRIPTIVA                  */
+/*********************************************************/
+ 
+.card_3{
+    width: 250px;
+    height: 400px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    @extend .Sombra-basicona;
+    @extend .mg-10;
+    @extend .txt-fgm;
+    overflow: hidden;
+    text-transform: lowercase;
+}
+
+.card_3{
+    div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        //opacida
+        transition: all 0.5 ease;
+        opacity: 0;
+    }
+}
+
+.card_3{
+    h2{
+        color: $color_text_white;
+        margin: 20px 0;
+        @extend .txt-30;
+        text-decoration: 0;
+    }
+
+    a{
+        color: $color_text_white;
+        margin: 20px 0;
+        @extend .txt-15;
+        border: 20px;
+        background-color: $color_text_gray;
+        text-decoration: 0;
+        @extend .pd-10;
+    }
+
+    a:hover{
+        color: $color_secundario;
+    }
+}
+
+.card_3:hover div{
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(-3%);//para que se eleve en el eje y
+}
+
+/*********************************************************/
+/*            CARD NUMERO 4 CABALLADA                    */
+/*********************************************************/
+
+.card_4{
+    font-family: sans-serif;
+    height: 500px;
+    @extend .mg-15;
+    @extend .Sombra-basicona;
+    overflow: hidden;
+    width: 350px;  
+    border-radius: 15px;
+    transition: all 400ms;
+}
+
+.card_4{
+    img{
+        height: 500px;
+        width: 350px;
+        border-radius: 3px;
+    }
+
+}  
+
+.card_4{
+    .intro{
+        height: 80px; 
+        width: 350px;
+        box-sizing: border-box;
+        @extend .absolute;
+        background-color: #0f214580;
+        color: $color_text_white;
+        @extend .pl-20;
+        @extend .pr-10;
+        @extend .pb-10;
+        bottom: 110px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        transition: all 500ms;
+    }
+}
+
+.into{
+    h1{
+        @extend .mg-10;
+    }
+    p{
+        @extend .txt-c;
+        visibility: hidden;
+        @extend  .txt-20;
+    }
+}
+
+/*
+.card_4:hover{
+    transform: translateY(-2%);
+    cursor: pointer;
+    .intro{
+        top: 320px;
+        transition: 400ms all;
+    }
+}*/
+.card_4:hover .intro{
+    height: 180px;
+    background-color: #0f214580;
+    transition: all 400ms;
+    cursor: pointer;
+}
+
+.card_3:hover  p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.intro:hover img{
+    transform: scale(1.1);
+}
