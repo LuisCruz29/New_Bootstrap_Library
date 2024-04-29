@@ -1,0 +1,39 @@
+@import "ColorFondoElementos";
+@import "redondear";
+@import "padding";
+@import "Botones";
+@import "Texto";
+@import "border";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+form button {
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    align-self: flex-start;
+}
+
+input {
+    width: 100%;
+}
