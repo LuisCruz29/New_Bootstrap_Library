@@ -88,7 +88,7 @@
          padding-left: 50px;
     }
  
-    nav{
+    .nav-bar{
          ul{
              li{
                  a{
@@ -118,7 +118,7 @@
         padding-left: 50px;
     }
 
-    nav{
+    .nav-bar{
         ul{
             li{
                 a{
@@ -133,7 +133,6 @@
         .nav-bar-ul{
            background:  $color_text_gray;
            width: 100%;
-           
            text-align: center;
             transition: all  .5s ;
         }
@@ -174,6 +173,186 @@
             font-size: 20px;
         }
     }
+}
+
+@media(max-width: 400px){
+    .nav-bar{
+        width: 400px;
+        .nav-bar-ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+           background:  $color_text_gray;
+            text-align: center;
+            transition: all  .5s ;
+            
+        }
+    }
+    
+    .nav-bar{
+        ul{
+            li{
+               display: block; 
+            }
+        }
+    }
+    
+    .nav-bar{
+        ul li a{
+            font-size: 20px;
+        }
+    }
+}
+
+.nav-bar-2{
+    background-color: $color_seundario_2;
+    height: 80px;
+    width: 100%;
+    list-style: none;
+
+    label.logo{
+        color: $color_text_white;
+        @extend .txt-35;
+        line-height: 80px;
+        padding: 0 100px;
+        //font-whei
+        @extend .txt-bold;
+    } 
+
+
+    a.active,a:hover{ 
+        background : $bg_principal_3;
+        transition: .5 all;
+    }
+
+    
+} 
+
+
+///Nav bar 2
+.nav-bar-2{
+    ul{ 
+        float: right;
+       @extend .mr-20;
+    }
+}
+
+.nav-bar-2{
+    ul{ 
+       li{
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px ;
+       }
+    }
+}
+
+.nav-bar-2{
+    ul{
+        li{
+            a{
+                color: $color_text_white;
+                @extend .txt-20;
+                text-transform: uppercase;
+                padding: 7px 13px;
+            }
+        }
+    }
+}
+
+@media(max-width:1094px){
+    
+    label.logo{
+         font-size: 30px;
+         padding-left: 50px;
+    }
+ 
+    .nav-bar-2{
+         ul{
+             li{
+                 a{
+                     //@extend .txt-15;
+                     font-size: 15px;
+                 }
+             }
+         }
+    }
+ 
+     .nav-bar-2{
+         .nav-bar-ul{
+
+                background:  $color_text_gray;
+                width: 100%;
+                text-align: center;
+                transition: all  .5s ;
+                margin: 0; 
+                padding: 0;
+          }
+     }
+}
+@media(max-width:960px){
+    label.logo{
+       // @extend .txt-30;
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .nav-bar-2{
+        ul{
+            li{
+                a{
+                    //@extend .txt-15;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .nav-bar-2{
+        .nav-bar-ul{
+           background:  $color_text_gray;
+           width: 100%;
+           
+           text-align: center;
+            transition: all  .5s ;
+        }
+    }
+
+}
+
+@media(max-width: 858px){
+   
+    
+    .nav-bar-2{
+        .nav-bar-ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            //no se por que aqui me da error 
+           // @extend .top-8;
+           background:  $color_text_gray;
+            //no se por que aqui me da error 
+            //@extend .txt-c;
+            text-align: center;
+            transition: all  .5s ;
+            
+        }
+    }
+    
+
+    .nav-bar-2{
+        ul{
+            li{
+               display: block; 
+            }
+        }
+    }
+    
+    .nav-bar-2{
+        ul li a{
+            font-size: 20px;
+        }
+    }
 
 
 }
@@ -181,7 +360,7 @@
 @media(max-width: 400px){
    
     
-    .nav-bar{
+    .nav-bar-2{
         width: 400px;
         .nav-bar-ul{
             position: fixed;
@@ -198,7 +377,7 @@
         }
     }
     
-    .nav-bar{
+    .nav-bar-2{
         ul{
             li{
                display: block; 
@@ -206,7 +385,7 @@
         }
     }
     
-    .nav-bar{
+    .nav-bar-2{
         ul li a{
             font-size: 20px;
         }
