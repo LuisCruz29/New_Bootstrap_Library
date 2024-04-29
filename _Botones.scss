@@ -1,0 +1,664 @@
+@import "ColorFondoElementos";
+@import "redondear";
+@import "padding";
+@import "Texto";
+@import "border";
+
+/*el numero en la clase es el tamaño del boton*/
+
+/*Boton con diferente tamaño de color azul*/
+.btn-10-azul
+{
+    @extend .redondear-1;
+    @extend .pd-10;
+    background-color: $color_seundario_2;
+    color: $bg_princpal_2;
+    border: none;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-azul
+{
+    @extend .redondear-1;
+    @extend .pd-10;
+    background-color: $color_seundario_2;
+    color: $bg_princpal_2;
+    border:none;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-azul
+{
+    @extend .redondear-1;
+    @extend .pd-10;
+    background-color: $color_seundario_2;
+    color: $bg_princpal_2;
+    border: none;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-azul
+{
+    @extend .redondear-1;
+    @extend .pd-10;
+    background-color: $color_seundario_2;
+    color: $bg_princpal_2;
+    border: none;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-azul
+{
+    background-color: $color_seundario_2;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-10-azul:hover
+{
+    background-color: $bg_principal_3;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-azul:hover
+{
+    background-color: $bg_principal_3;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-azul:hover
+{
+    background-color: $bg_principal_3;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-azul:hover
+{
+    background-color: $bg_principal_3;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-azul:hover
+{
+    background-color: $bg_principal_3;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+/* estilos para nuestro boton transparente */
+.btn-10-transparente
+{
+    background-color: transparent;
+    color:$bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+
+.btn-20-transparente
+{
+    background-color: transparent;
+    color: $bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-transparente
+{
+    background-color: transparent;
+    color: $bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-transparente
+{
+    background-color: transparent;
+    color: $bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-transparente
+{
+    background-color: transparent;
+    color:$bg_principal;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: 2px solid $color_seundario_2;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-10-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color:$color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+
+.btn-20-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color: $color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-transparente:hover
+{
+    background-color: $bg_principal_3;
+    color:$color_text_white;
+    @extend .redondear-1;
+    @extend .pd-10;
+    border: none;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+/* Creando estilo para nuestro boton 3 */ 
+.btn-10-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-s-c4;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-s-c4;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-s-c4;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-s-c4;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-tres
+{
+    background-color: $color_alerta_exito;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-s-c4;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-10-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-tres:hover
+{
+    background-color: $color_border;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-2-s-c1;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+/* Estilos para nuestro boton numero 4*/
+.btn-10-cuatro
+{
+    background-color: transparent;
+    color: $color_secundario_rojo;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c2;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-cuatro
+{
+    background-color: transparent;
+    color: $color_secundario_rojo;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c2;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-cuatro
+{
+    background-color: transparent;
+    color: $color_secundario_rojo;
+    @extend .redondear-1;
+    @extend .pd-10; 
+    @extend .borde-3-ds-c2;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-cuatro
+{
+    background-color: transparent;
+    color: $color_secundario_rojo;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c2;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-cuatro
+{
+    background-color: transparent;
+    color: $color_secundario_rojo;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c2;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-10-cuatro:hover
+{
+    background-color: $color_secundario;
+    color:$color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-cuatro:hover
+{
+    background-color: $color_secundario;
+    color: $color_text_gray;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+/* Estilos para nuestro boton numero 5*/
+.btn-10-cinco
+{
+    background-color: $bg_principal;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-cinco
+{
+    background-color: $bg_principal;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-cinco
+{
+    background-color: $bg_principal;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-cinco
+{
+    background-color: $bg_principal;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-cinco
+{
+    background-color: $bg_principal;
+    color: $bg_princpal_2;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c4;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-10-cinco:hover
+{
+    background-color: $color_title;
+    color: $color_secundario;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c3;
+    height: auto;
+    width: 10%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-20-cinco:hover
+{
+    background-color: $color_title;
+    color: $color_secundario;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c3;
+    height: auto;
+    width: 20%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-50-cinco:hover
+{
+    background-color: $color_title;
+    color: $color_secundario;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c3;
+    height: auto;
+    width: 50%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-80-cinco:hover
+{
+    background-color: $color_title;
+    color: $color_secundario;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c3;
+    height: auto;
+    width: 80%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
+
+.btn-100-cinco:hover
+{
+    background-color: $color_title;
+    color: $color_secundario;
+    @extend .redondear-1;
+    @extend .pd-10;
+    @extend .borde-3-ds-c3;
+    height: auto;
+    width: 100%;
+    @extend .txt-bold;
+    cursor: pointer;
+}
