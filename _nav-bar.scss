@@ -5,12 +5,7 @@
 @import 'border';
 @import 'mover';
 
-*{
-    padding: 0;
-    margin: 0;
-    @extend .txt-d-none;
-    @extend .txt-tmr;
-}
+
 
 .nav-bar{
     background-color: $bg_principal;
