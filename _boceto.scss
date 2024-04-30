@@ -1,0 +1,32 @@
+@import "Alertas";
+@import "badges";
+@import "border";
+@import "Botones";
+@import "card";
+@import "ColorFondoElementos";
+@import "container";
+@import "flex";
+@import "grid";
+@import "margin";
+@import "nav-bar";
+@import "OcultarElemento";
+@import "padding";
+@import "Texto";
+@import "_U-sombras";
+@import "widths";
+@import "form";
+@import "mover";
+@import "redondear";
+
+img
+{
+    width: 200px;
+    height: auto;
+}
+
+.pie
+{
+    background-color: #14142b;
+    height: auto;
+    color: #fff;
+}
