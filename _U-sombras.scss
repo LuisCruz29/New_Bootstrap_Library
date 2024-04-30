@@ -1,0 +1,73 @@
+@import 'ColorFondoElementos';
+/*********************************************************/
+/*              CREANDO SOMBRAS MAZISAS                  */
+/*********************************************************/
+
+/*****Sombras para contenedores*****/
+
+.Sombra-basicona{
+    box-shadow: 5px 5px 10px $bg_principal;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+.Sombra-basicona:hover{
+    box-shadow: 5px 5px 20px $bg_principal;
+    transition: 2s;
+}
+
+
+.Sombra-basicona-interna{
+    box-shadow: 2px 2px 10px $bg_principal inset;
+    transition: 2s;
+}
+
+.Sombra-basicona-interna:hover{
+    box-shadow: 2px 2px 10px $bg_principal;
+    transition: 2s;
+}
+
+.sombra-basicona-mod3D{
+    box-shadow: 5px 5px $color_text_gray;
+    transition: all 1s;
+}
+
+.sombra-basicona-mod3D:hover{
+    box-shadow: 5px 5px $color_title inset, 5px 5px $color_title;
+    transition: all .5s;
+}
+
+.sombra-basicona-xy{
+    box-shadow: 0px 4px 0px $bg_principal, 0 -4px 0px $color_title;
+}
+
+.sombra-basicona-xy:hover{
+    box-shadow: 
+            0px 4px 0px $bg_principal,
+            0 -4px 0px $color_title, 
+            4px 0px 0px $bg_principal inset, 
+            -4px 0px 0px $color_title inset; 
+} 
+
+//Pxy es en el eje +x~+y N lo contrario
+.sombra-basicona-Pxy-Nyz{
+    box-shadow: 
+            0px 4px 0px $bg_principal,
+            0 -4px 0px $color_title, 
+            4px 0px 0px $bg_principal inset, 
+            -4px 0px 0px $color_title inset; 
+}
+
+/****Sombras para img sin fondo****/
+
+.sombra-img-transparente{
+    filter: drop-shadow(0 0 3px $color_secundario_rojo);
+    filter: drop-shadow(0 0 3px $bg_principal_3);
+    transition: all 0.3s;
+}
+
+.sombra-img-transparente:hover{
+    filter: drop-shadow(0 0 5px $color_secundario_rojo);
+    filter: drop-shadow(0 0 5px $bg_principal_3);
+}
