@@ -3926,4 +3926,15 @@ table {
   border-spacing: 0;
 }
 
+.puntos
+{
+  list-style: inside;
+}
+
+.transparencia
+{
+  max-width: 200px;
+  max-height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
