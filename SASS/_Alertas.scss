@@ -9,18 +9,18 @@
 /* Estilos para la alerta numero 1 */
 .alert-exito-bd
 {
-    background-color:$color_alerta_exito;
+    background-color:ColorFondoElementos.$color_alerta_exito;
     @extend .pd-10;
-    color: $color_border;
+    color: ColorFondoElementos.$color_border;
     @extend .txt-bold;
     @extend .redondear-1;
 }
 
 .alert-exito-sbd
 {
-    background-color:$color_alerta_exito;
+    background-color:ColorFondoElementos.$color_alerta_exito;
     @extend .pd-10;
-    color: $color_border;
+    color: ColorFondoElementos.$color_border;
     @extend .txt-bold;
 }
 
@@ -28,18 +28,18 @@
 
 .alert-advertencia-bd
 {
-    background-color: $color_secundario;
+    background-color: ColorFondoElementos.$color_secundario;
     @extend .pd-10;
-    color: $color_text_gray;
+    color: ColorFondoElementos.$color_text_gray;
     @extend .txt-bold;
     @extend .redondear-1;
 }
 
 .alert-advertencia-sbd
 {
-    background-color: $color_secundario;
+    background-color: ColorFondoElementos.$color_secundario;
     @extend .pd-10;
-    color: $color_text_gray;
+    color: ColorFondoElementos.$color_text_gray;
     @extend .txt-bold;
 }
 
@@ -47,7 +47,7 @@
 
 .alert-error-bd
 {
-    background-color: $color_secundario_rojo;
+    background-color: ColorFondoElementos.$color_secundario_rojo;
     @extend .pd-10;
     color: #fbfdff;
     @extend .redondear-1;
@@ -56,7 +56,7 @@
 
 .alert-error-sbd
 {
-    background-color: $color_secundario_rojo;
+    background-color: ColorFondoElementos.$color_secundario_rojo;
     @extend .pd-10;
     color: #fbfdff;
     @extend .txt-bold;
@@ -66,18 +66,18 @@
 
 .alert-gris-bd
 {
-    background-color: $color_text_gray;
+    background-color: ColorFondoElementos.$color_text_gray;
     @extend .pd-10;
-    color: $color_text_white;
+    color: ColorFondoElementos.$color_text_white;
     @extend .redondear-1;
     @extend .txt-bold;
 }
 
 .alert-gris-sbd
 {
-    background-color: $color_text_gray;
+    background-color: ColorFondoElementos.$color_text_gray;
     @extend .pd-10;
-    color: $color_text_white;
+    color: ColorFondoElementos.$color_text_white;
     @extend .txt-bold;
 }
 
@@ -85,17 +85,17 @@
 
 .alert-azul-bd
 {
-    background-color: $color_seundario_2;
+    background-color: ColorFondoElementos.$color_seundario_2;
     @extend .pd-10;
-    color: $color_text_white;
+    color: ColorFondoElementos.$color_text_white;
     @extend .redondear-1;;
     @extend .txt-bold;
 }
 
 .alert-azul-sbd
 {
-    background-color: $color_seundario_2;
+    background-color: ColorFondoElementos.$color_seundario_2;
     @extend .pd-10;
-    color: $color_text_white;
+    color: ColorFondoElementos.$color_text_white;
     @extend .txt-bold;
 }

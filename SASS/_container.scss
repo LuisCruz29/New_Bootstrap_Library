@@ -1,18 +1,18 @@
 @use "ColorFondoElementos";
 
 .contenedor-1{
-    background-color: $bg_principal;
+    background-color: ColorFondoElementos.$bg_principal;
 }
 
 .contenedor-2{
-    background-color: $bg_princpal_2;
+    background-color: ColorFondoElementos.$bg_princpal_2;
 }
 
 .contenedor-3{
-    background-color: $color_text_gray;
+    background-color: ColorFondoElementos.$color_text_gray;
 }
 
 .contenedor-4{
-    background-color: $bg_principal_4;
+    background-color: ColorFondoElementos.$bg_principal_4;
 }
 

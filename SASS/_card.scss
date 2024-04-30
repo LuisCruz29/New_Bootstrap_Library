@@ -14,7 +14,7 @@
     height: 100%;
     border-radius: 5px;
     overflow: hidden; //hace que la img se vea mas grande que el contenedor xd 
-    background: $bg_princpal_2;
+    background: ColorFondoElementos.$bg_princpal_2;
     @extend .Sombra-basicona;
     cursor: pointer;
     transition: all 400ms ease;
@@ -38,7 +38,7 @@
 
         p{
             line-height: 1.5; //hace que la linia de p tenga un espacido
-            color: $color_title;
+            color: ColorFondoElementos.$color_title;
         }
 
         h3{
@@ -50,17 +50,17 @@
             @extend .mt-15;
             display: inline-block;
             @extend .pd-10;
-            color: $color_title;
+            color: ColorFondoElementos.$color_title;
             @extend .txt-d-none;
-            border: 1px solid $color_text_gray;
+            border: 1px solid ColorFondoElementos.$color_text_gray;
             border-radius: 4px;
             transition: all 400ms ease;
 
         }
 
         a:hover{
-            background-color: $color_text_gray;
-            color: $bg_principal;
+            background-color: ColorFondoElementos.$color_text_gray;
+            color: ColorFondoElementos.$bg_principal;
         }
     }
 }
@@ -75,7 +75,7 @@
     height: 100%;
     border-radius: 5px;
     overflow: hidden; //hace que la img se vea mas grande que el contenedor xd 
-    background: $bg_princpal_2;
+    background: ColorFondoElementos.$bg_princpal_2;
     @extend .Sombra-basicona;
     cursor: pointer;
     transition: all 400ms ease;
@@ -97,7 +97,7 @@
 
         p{
             line-height: 1.5; //hace que la linia de p tenga un espacido
-            color: $color_title;
+            color: ColorFondoElementos.$color_title;
         }
 
         h3{
@@ -109,17 +109,17 @@
             @extend .mt-15;
             display: inline-block;
             @extend .pd-10;
-            color: $color_title;
+            color: ColorFondoElementos.$color_title;
             @extend .txt-d-none;
-            border: 1px solid $color_text_gray;
+            border: 1px solid ColorFondoElementos.$color_text_gray;
             border-radius: 4px;
             transition: all 400ms ease;
 
         }
 
         a:hover{
-            background-color: $color_text_gray;
-            color: $bg_principal;
+            background-color: ColorFondoElementos.$color_text_gray;
+            color: ColorFondoElementos.$bg_principal;
         }
     }
 }
@@ -157,24 +157,24 @@
 
 .card_3{
     h2{
-        color: $color_text_white;
+        color: ColorFondoElementos.$color_text_white;
         margin: 20px 0;
         @extend .txt-30;
         text-decoration: 0;
     }
 
     a{
-        color: $color_text_white;
+        color: ColorFondoElementos.$color_text_white;
         margin: 20px 0;
         @extend .txt-15;
         border: 20px;
-        background-color: $color_text_gray;
+        background-color: ColorFondoElementos.$color_text_gray;
         text-decoration: 0;
         @extend .pd-10;
     }
 
     a:hover{
-        color: $color_secundario;
+        color: ColorFondoElementos.$color_secundario;
     }
 }
 
@@ -215,7 +215,7 @@
         box-sizing: border-box;
         @extend .absolute;
         background-color: #0f214580;
-        color: $color_text_white;
+        color: ColorFondoElementos.$color_text_white;
         @extend .pl-20;
         @extend .pr-10;
         @extend .pb-10;
