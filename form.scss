@@ -1,3 +1,15 @@
+@import "border";
+@import "Botones";
+@import "ColorFondoElementos";
+@import "flex";
+@import "margin";
+@import "OcultarElemento";
+@import "padding";
+@import "Texto";
+@import "mover";
+@import "redondear";
+@import "U-sombras";
+
 body {
     margin: 0;
     padding: 0;
@@ -14,11 +26,7 @@ form {
 
 .row {
     display: flex;
-    width: auto;
-    gap: 10px;
-    height: auto;
-    align-items: center;
-    margin-top: 10px;
+    flex-direction: row;
 }
 
 label {
