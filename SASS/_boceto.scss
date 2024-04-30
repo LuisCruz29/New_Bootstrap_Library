@@ -1,22 +1,5 @@
-@import "Alertas";
-@import "badges";
-@import "border";
-@import "Botones";
-@import "card";
-@import "ColorFondoElementos";
-@import "container";
-@import "flex";
-@import "grid";
-@import "margin";
-@import "nav-bar";
-@import "OcultarElemento";
-@import "padding";
-@import "Texto";
-@import "_U-sombras";
-@import "widths";
-@import "form";
-@import "mover";
-@import "redondear";
+
+@use "libreria.scss";
 
 img
 {

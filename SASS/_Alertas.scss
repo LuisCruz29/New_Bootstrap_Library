@@ -1,9 +1,9 @@
 /* tengamos en cuenta estos prefijos en la clase  sbd : sin border radius, bd : con border radius*/
 
-@import "padding";
-@import "ColorFondoElementos";
-@import "Texto";
-@import "redondear";
+@use "padding";
+@use "ColorFondoElementos";
+@use "Texto";
+@use "redondear";
 
 
 /* Estilos para la alerta numero 1 */

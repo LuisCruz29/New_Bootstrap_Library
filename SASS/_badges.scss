@@ -1,8 +1,8 @@
-@import "ColorFondoElementos";
-@import "padding";
-@import "Texto";
-@import "redondear.scss";
-@import "border";
+@use "ColorFondoElementos";
+@use "padding";
+@use "Texto";
+@use "redondear.scss";
+@use "border";
 
 @mixin propiedades($Color_fondo,$Color_texto,$display:inline){
     background-color: $Color_fondo;

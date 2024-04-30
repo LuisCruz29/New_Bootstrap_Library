@@ -1,4 +1,4 @@
-@import "ColorFondoElementos";
+@use "ColorFondoElementos";
 /*
     Terminologia:
 
@@ -109,7 +109,7 @@
 }
 
 .txt-c2{
-    color: $color_text_gray ;
+    color: $color_text_gray;
 }
 
 .txt-c3{

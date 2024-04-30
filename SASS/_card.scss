@@ -1,10 +1,10 @@
-@import '_U-sombras';
-@import '_ColorFondoElementos';
-@import '_Texto';
-@import 'border';
-@import 'padding';
-@import 'margin';
-@import 'mover.scss';
+@use 'U-sombras';
+@use 'ColorFondoElementos';
+@use 'Texto';
+@use 'border';
+@use 'padding';
+@use 'margin';
+@use 'mover.scss';
 /*********************************************************/
 /*            CARD NUMERO 1 MOVIMIENTO EN Y              */
 /*********************************************************/
