@@ -9,40 +9,43 @@
 @use "mover";
 @use "redondear";
 
-
-
 .formulario {
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
+    gap: 40px; /* Ajusta el espacio entre las filas según sea necesario */
+    padding: 20px; /* Añade relleno alrededor del formulario */
 }
+
 form h1 {
     text-align: center !important;
 }
 
-
 .row {
+    border: 1px solid black;
     display: flex;
-    justify-content: center;
-    align-items: center; /* Alinea verticalmente los elementos */
-    gap: 10px; /* Espacio entre elementos */
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
+label {
+    width: 30%; /* Cambiado a unidad relativa */
+}
+
+input, select {
+    flex: 1;
+}
 
 .column {
     flex: 1;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
-.column{
-    flex-direction: column;
-    
-}
+/* Media queries aquí para ajustes en diferentes tamaños de pantalla */
 
-.row{
-    flex-direction: column;
-}
-
-//celulares
 @media(max-width:500px){
     .sm-column{
         flex-direction: column;
@@ -52,8 +55,6 @@ form h1 {
     }
 }
 
-
-//tables
 @media (min-width:501px) and (max-width:1023px){
     .md-column{
         flex-direction: column;
@@ -63,7 +64,6 @@ form h1 {
     }
 }
 
-//pantallas de resolucion 1024px
 @media (min-width:1024px){
     .bg-column{
         flex-direction: column;
