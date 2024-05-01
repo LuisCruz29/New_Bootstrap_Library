@@ -2176,6 +2176,205 @@
                 </div>
             </div>
 
+            <div class="contenedor-4 pd-20 mg-20 redondear-1">
+                <h2 class="txt-bold txt-cs txt-40 mb-10">Formularios</h2>
+                <p class="txt-25 mb-10 txt-j">En el formulario, los campos de entrada están distribuidos en 
+                    filas y columnas utilizando Flexbox, lo que permite una disposición flexible y adaptable 
+                    a distintos dispositivos. Cada campo de entrada está etiquetado de manera clara y concisa 
+                    para indicar qué tipo de información se espera del usuario.
+                </p>
+
+                <h2 class="txt-bold txt-cs txt-40 mb-10">Row</h2>
+                <p class="txt-25 mb-10 txt-j">Cuando se aplica la clase .row a un contenedor HTML, se le está 
+                    dando la instrucción de que los elementos dentro de este contenedor se alineen en una fila 
+                    horizontal. En el contexto de este código, se utiliza para agrupar elementos que deben mostrarse 
+                    en una fila, como etiquetas de texto y campos de entrada.
+                </p>
+
+                <div class="contenedor-1 pd-20 mg-20 redondear-1">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">></span><span class="color-3"> </span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                        </code>
+                    </pre>
+                </div>
+
+                <h2 class="txt-bold txt-cs txt-40 mb-10">Column</h2>
+                <p class="txt-25 mb-10 txt-j">La clase .column se utiliza para definir un contenedor flexible
+                    dentro de un diseño de columnas en CSS. Cuando se aplica esta clase a un elemento HTML, se le 
+                    está indicando que se comporte como una columna dentro de un diseño flexible, lo que significa
+                    que los elementos dentro de este contenedor se alinearán en una columna vertical.
+                </p>
+
+                <div class="contenedor-1 pd-20 mg-20 redondear-1">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">  //Esta seria una manera de usar<br><br></span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">></span><br><p>      <span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">            //Esta seria una manera de usar<br><br>      </span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                        </code>
+                    </pre>
+                </div>
+
+                <h2 class="txt-bold txt-cs txt-40 mb-20">Ejemplos</h2>
+
+                <div class="contenedor-2 pd-20 redondear-1 px-20">
+                    
+                        <form action="" class="formulario wd-80 mg-auto">
+                            <h1 class="txt-20 txt-bold align-self-center mb-10">Formulario</h1>
+
+                            <div class="row">
+                                <div class="col mg-10 flex-basis-5 ">
+                                    <label for="nombre" class="" >Nombre</label>
+                                    <input type="text" id="nombre" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+                                <div class=" col mg-10 flex-basis-5">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" id="apellido" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="correo">Correo</label>
+                                    <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+    
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="correo">Telefono</label>
+                                    <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="genero">Género</label>
+                                    <div class="gender-radio">
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="male">Masculino</label>
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Femenino</label>
+                                    </div>
+                                </div>
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="preferencia">Preferencia</label>
+                                    <select id="preferencia" class="borde-1-s-c1 redondear-2 wd-100">
+                                        <option value="opcion1">Opción 1</option>
+                                        <option value="opcion2">Opción 2</option>
+                                        <option value="opcion3">Opción 3</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row my-10 ">
+                                <button type="submit" class="btn-50-azul flex-basis-10">Enviar</button>
+                            </div>
+                        </form>
+                    
+                </div>
+
+                <div class="contenedor-1 pd-20 mt-20 redondear-1 overflow">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4">&lt;</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span><span class="color-3"> Formulario</span><span class="txt-c4">&lt;/</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"nombre"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Nombre</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"nombre"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"correo"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Correo</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"correo"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2">Género</span></p>
+                            <p>        <div class="gender-radio"></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"male"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"male"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Masculino</span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"female"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"female"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Femenino</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2">Preferencia</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">select</span><span class="txt-c4"> id=</span><span class="color-3">"preferencia"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion1"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 1</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion2"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 2</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion3"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 3</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">select</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Opcion 1</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">button</span><span class="txt-c4"> type=</span><span class="color-3">"submit"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"btn-50-azul"</span><span class="txt-c4">&gt;</span><span class="color-3">Enviar</span><span class="txt-c4">&lt;/</span><span class="color-1">button</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p><span class="txt-c4">&lt;/</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="mt-20 contenedor-2 pd-20 redondear-1 px-20">
+                    
+                    <form action="" class="formulario wd-50 mg-auto">
+                        <h1 class="txt-20 txt-bold align-self-center mb-10">Formulario</h1>
+
+                        <div class="col mg-10  ">
+                            <label for="nombre" class="" >Nombre</label>
+                            <input type="text" id="nombre" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+                        <div class=" col mg-10 ">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+                        
+                        <div class="col mg-10">
+                            <label for="correo">Correo</label>
+                            <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+
+                        <div class="col mg-10">
+                            <label for="correo">Telefono</label>
+                            <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+                          
+                        <div class="col mg-10 ">
+                            <label for="genero">Género</label>
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Masculino</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Femenino</label>
+                            </div>
+                        </div>
+                        <div class="col mg-10">
+                            <label for="preferencia">Preferencia</label>
+                            <select id="preferencia" class="borde-1-s-c1 redondear-2 wd-100">
+                                <option value="opcion1">Opción 1</option>
+                                <option value="opcion2">Opción 2</option>
+                                <option value="opcion3">Opción 3</option>
+                            </select>
+                        </div>
+                            
+                        <div class="row my-10 ">
+                            <button type="submit" class="btn-50-azul flex-basis-10">Enviar</button>
+                        </div>
+                    </form>
+                
+            </div>
+                
+            </div>
+
+
         </section>
     </main>
 
