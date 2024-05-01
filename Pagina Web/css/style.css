@@ -3828,30 +3828,17 @@
   flex-direction: column;
 }
 
-form h1 {
-  text-align: center !important;
-}
-
 .row {
   display: flex;
-  justify-content: center;
-  align-items: center; /* Alinea verticalmente los elementos */
-  gap: 10px; /* Espacio entre elementos */
+  flex-direction: row;
 }
 
 .column {
-  flex: 1;
-  padding: 10px;
-}
-
-.column {
+  display: flex;
   flex-direction: column;
 }
 
-.row {
-  flex-direction: column;
-}
-
+/* Media queries aquí para ajustes en diferentes tamaños de pantalla */
 @media (max-width: 500px) {
   .sm-column {
     flex-direction: column;
@@ -3924,17 +3911,6 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-.puntos
-{
-  list-style: inside;
-}
-
-.transparencia
-{
-  max-width: 200px;
-  max-height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
