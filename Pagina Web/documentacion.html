@@ -227,6 +227,121 @@
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-circular-c5-sm"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-circular-c5-md"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-circular-c5-bg"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
+                <h2 class="txt-bold txt-cs txt-40 mb-10">Column</h2>
+                <p class="txt-25 mb-10 txt-j">La clase .column se utiliza para definir un contenedor flexible
+                    dentro de un diseño de columnas en CSS. Cuando se aplica esta clase a un elemento HTML, se le 
+                    está indicando que se comporte como una columna dentro de un diseño flexible, lo que significa
+                    que los elementos dentro de este contenedor se alinearán en una columna vertical.
+                </p>
+
+                <div class="contenedor-1 pd-20 mg-20 redondear-1">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">  //Esta seria una manera de usar<br><br></span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">></span><br><p>      <span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">            //Esta seria una manera de usar<br><br>      </span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                        </code>
+                    </pre>
+                </div>
+
+                <h2 class="txt-bold txt-cs txt-40 mb-20">Ejemplos</h2>
+
+                <div class="contenedor-2 pd-20 redondear-1">
+                    <div>
+                        <form action="" class="formulario flex-basis-10">
+                            <h1>Formulario</h1>
+                            <div class="row">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" class="borde-1-s-c1 redondear-2">
+                            </div>
+                            <div class="row">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" id="apellido" class="borde-1-s-c1 redondear-2">
+                            </div>
+                            <div class="row">
+                                <label for="correo">Correo</label>
+                                <input type="text" id="correo" class="borde-1-s-c1 redondear-2">
+                            </div>
+                            <div class="row">
+                                <label for="genero">Género</label>
+                                <div class="gender-radio">
+                                    <input type="radio" id="male" name="gender" value="male">
+                                    <label for="male">Masculino</label>
+                                    <input type="radio" id="female" name="gender" value="female">
+                                    <label for="female">Femenino</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="preferencia">Preferencia</label>
+                                <select id="preferencia" class="borde-1-s-c1 redondear-2">
+                                    <option value="opcion1">Opción 1</option>
+                                    <option value="opcion2">Opción 2</option>
+                                    <option value="opcion3">Opción 3</option>
+                                </select>
+                            </div>
+                    
+                            <div class="row">
+                                <div class="column">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" id="apellido" class="borde-1-s-c1 redondear-2">
+                                </div>
+                                <div class="column">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" id="apellido" class="borde-1-s-c1 redondear-2">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="submit" class="btn-50-azul">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contenedor-1 pd-20 mt-20 redondear-1 overflow">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4">&lt;</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span><span class="color-3"> Formulario</span><span class="txt-c4">&lt;/</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"nombre"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Nombre</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"nombre"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"correo"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Correo</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"correo"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2">Género</span></p>
+                            <p>        <div class="gender-radio"></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"male"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"male"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Masculino</span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"female"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"female"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Femenino</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2">Preferencia</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">select</span><span class="txt-c4"> id=</span><span class="color-3">"preferencia"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion1"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 1</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion2"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 2</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion3"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 3</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">select</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Opcion 1</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">button</span><span class="txt-c4"> type=</span><span class="color-3">"submit"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"btn-50-azul"</span><span class="txt-c4">&gt;</span><span class="color-3">Enviar</span><span class="txt-c4">&lt;/</span><span class="color-1">button</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p><span class="txt-c4">&lt;/</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
                         </code>
                     </pre>
                 </div>
