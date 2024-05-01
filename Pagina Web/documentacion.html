@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .color-1{
+            color: #60DFF6;
+        }
+        
+        .color-2{
+            color: #FFE69C;
+        }
+        
+        .color-3{
+            color: #5BDFC1;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,7 +39,8 @@
                 <h1 class="txt-30 mb-10 pd-20 txt-c contenedor-3 redondear-2 txt-c4">Diferentes elementos</h1>
                 <a href="#botonesfnt" class="txt-d-none txt-25 mg-20 txt-c1">Botones</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Formularios</a> <br> <br>
-                <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Tarjetas</a> <br> <br>
+                <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Formularios</a> <br> <br>
+                <a href="#Tarjetas" class="txt-d-none txt-25 mg-20 txt-c1">Tarjetas</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Alertas</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Nav-bar</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Badges</a> <br> <br>
@@ -67,7 +81,181 @@
             <div id="botonesfnt">
                 botoneknekfnkfnrnfnrkffnf
             </div>
-            
+
+            <div class="contenedor-4 pd-20 mg-20" id="Tarjetas">
+                <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Tarjetas</h2>
+                <p> las 'cards' son componentes visuales muy utilizados para mostrar información de manera estructurada y atractiva. Son como pequeños contenedores que pueden contener diversos tipos de contenido, como imágenes, texto y enlaces.</p>
+                <p class="mt-5">Para hacerte el trabajo mas facil contamos con 4 tipos de card con diferentes atributos. <br>
+                     <br> 1.Movimiento en Y
+                     <br>2.Movimiento en X. 
+                     <br> 3.Descriptivas
+                     <br>4.La discriptiva 2.0.</p>
+
+                <p class="mt-20 txt-bold txt-20 txt-c5">Primer estilo</p>
+
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="/Pagina Web/img/img-jugadores1.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="/Pagina Web/img/img-jugadores2.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="/Pagina Web/img/img-jugadores.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span> <span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"Tarjeta__1"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">figure</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card1__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">img</span><span class="color-2"> src</span><span class="txt-c4"> = </span><span class="color-3">"https://i.pinimg.com/564x/76/2f/87/762f87070797874a430985fe7af98fab.jpg"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">figure</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card1__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h3</span><span class="txt-c4">></span><span class="txt-c4">Imagen de jugadores</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h3</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span><span class="txt-c4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel <br>                         ab distinctio esse. Cupiditate.</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">p</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div> 
+                <!--Estilo 2-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Segundo estilo</p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="Tarjeta__2">
+                        <figure class="card2__contenido">
+                            <img src="/Pagina Web/img/jugadores-posando.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+
+                    <div class="Tarjeta__2">
+                        <figure class="card2__contenido">
+                            <img src="https://i.pinimg.com/564x/49/24/6b/49246b955900d70327a4387016d11eb0.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen del vicho</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+
+                </div> 
+                <br>
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span> <span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"Tarjeta__2"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">figure</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card2__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">img</span><span class="color-2"> src</span><span class="txt-c4"> = </span><span class="color-3">"https://i.pinimg.com/564x/76/2f/87/762f87070797874a430985fe7af98fab.jpg"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">figure</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card2__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h3</span><span class="txt-c4">></span><span class="txt-c4">Imagen de jugadores</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h3</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span><span class="txt-c4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel <br>                         ab distinctio esse. Cupiditate.</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">p</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+                <br>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Tercer estilo</p>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
+                        <div>
+                            <h2>Karim Benzema</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>   
+
+                    <div class="card_3" style="--i:url('https://i.pinimg.com/564x/34/74/12/347412428050eef38965f49489cf751a.jpg')">
+                        <div>
+                            <h2>Segios Ramos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+
+                    <div class="card_3" style="--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')">
+                        <div>
+                            <h2>Toni Kroos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                <!--Aqui ira el codigo-->
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card_3"</span><span class="txt-c4"><span class="color-2"> style</span><span class="txt-c4"> = </span><span class="color-3">"--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')"</span>></p>
+                
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h2</span><span class="txt-c4">></span><span class="txt-c4">Toni Kroos</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h2</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">a</span><span class="txt-c4">></span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4">></span><span class="txt-c4">Ver detalles</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div> 
+                <br> 
+                <!--Aqui va la 4 targeta-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Cuarto estilo</p>
+                <!--
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
+                    <div class="card_4">
+                        <img src="https://i.pinimg.com/236x/2f/4f/e6/2f4fe642fd209bdd0177a948535e9bec.jpg">
+                        <div class="intro">
+                            <h1>Cristiano ronaldo</h1>
+                            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perferendis, sed maiores dicta aspernatur expedita cupiditate eos.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <br>-->
+                <!--Aqui ira el codigo-->
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card_4"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">img</span><span class="color-2"> src</span><span class="txt-c4"> = </span><span class="color-3">"https://i.pinimg.com/564x/76/2f/87/762f87070797874a430985fe7af98fab.jpg"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"intro"</span><span class="txt-c4">></p>
+                                    <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h1</span><span class="txt-c4">></span><span class="txt-c4">Cristiano Moreno</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h1</span><span class="txt-c4">></span></p>
+                                    <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span><span class="txt-c4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel <br>                         ab distinctio esse. Cupiditate.</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">p</span><span class="txt-c4">></span></p>
+                                    <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+            </div>                           
+        </div>
+
         </section>
     </main>
 
