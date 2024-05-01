@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/Pagina Web/css/style_nav.css">
     <style>
         .color-1{
             color: #60DFF6;
@@ -42,7 +43,7 @@
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Formularios</a> <br> <br>
                 <a href="#Tarjetas" class="txt-d-none txt-25 mg-20 txt-c1">Tarjetas</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Alertas</a> <br> <br>
-                <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Nav-bar</a> <br> <br>
+                <a href="nav" class="txt-d-none txt-25 mg-20 txt-c1">Nav-bar</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Badges</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Contenedores</a> <br> <br>
             </div>
@@ -92,7 +93,7 @@
                      <br>4.La discriptiva 2.0.</p>
 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Primer estilo</p>
-
+                <br>
                 <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
                     <div class="Tarjeta__1">
                         <figure class="card1__contenido">
@@ -188,6 +189,7 @@
                 </div>
                 <br>
                 <p class="mt-20 txt-bold txt-20 txt-c5">Tercer estilo</p>
+                <br>
                 <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
                     <div class="card_3" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
                         <div>
@@ -228,6 +230,7 @@
                 <br> 
                 <!--Aqui va la 4 targeta-->
                 <p class="mt-20 txt-bold txt-20 txt-c5">Cuarto estilo</p>
+                <br>
                 <!--
                 <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
                     <div class="card_4">
@@ -240,6 +243,7 @@
                 </div>
                 <br>-->
                 <!--Aqui ira el codigo-->
+                <br>
                 <div class="contenedor-1 mt-5 redondear-1  pl-20">
                     <pre>
                         <code>
@@ -253,7 +257,84 @@
                         </code>
                     </pre>
                 </div>
-            </div>                           
+            </div>            
+            
+            <!--aqui iran los nav bares-->
+            <div class="contenedor-4 pd-20 mg-20" id="nav">
+                <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Nav Bar</h2>
+                <p>se sabe que una barra de navegación es un elemento utilizado en el diseño web para proporcionar una forma de navegación consistente y accesible a través de un sitio web. <br>
+                   Para facilitarte el trabajo de diseñar te traemos dos estilos completamente responsivos.
+                </p>
+                <br>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Primer Estilo</p>
+                <br>
+
+                <nav class="nav-bar-no-responsive ">
+                    <label class="logo">
+                        COLEGAS
+                    </label>
+                    <ul class="nav-bar-ul" >
+                        <li ><a href="#" class="active">Home</a></li>
+                        <li ><a href="#">Home</a></li>
+                        <li ><a href="#">Servicios</a></li>
+                        <li ><a href="#">contact</a></li>
+                        <li><a href="#">feednack</a></li>
+                    </ul>
+                </nav>  
+                <br>
+                <!--Codigo del nav bar 1-->
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">nav</span><span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"nav-bar"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"logo"</span><span class="txt-c4">></p>
+                                <H1 class="txt-c4">                   COLEGAS</h1>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">ul</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"nav-bar-ul"</span><span class="txt-c4">></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a <span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"active"</span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                                <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+
+                <p class="mt-20 txt-bold txt-20 txt-c5">Segundo Estilo</p>
+                <br>
+                <nav class="nav-bar-2-no">
+                    <label class="logo">
+                        COLEGAS
+                    </label>
+                    <ul class="nav-bar-ul" >
+                        <li ><a href="#" class="active">Home</a></li>
+                        <li ><a href="#">Home</a></li>
+                        <li ><a href="#">Servicios</a></li>
+                        <li ><a href="#">contact</a></li>
+                        <li><a href="#">feednack</a></li>
+                    </ul>
+                </nav>
+                <br>
+                <!--Codigo del nav bar 1-->
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">nav</span><span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"nav-bar-2"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"logo"</span><span class="txt-c4">></p>
+                                <H1 class="txt-c4">                   COLEGAS</h1>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">ul</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"nav-bar-ul"</span><span class="txt-c4">></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a <span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"active"</span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                                <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+            </div>
         </div>
 
         </section>
