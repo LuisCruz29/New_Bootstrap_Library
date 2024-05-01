@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-.color-1
-{
-    color: #60DFF6;
-}
-
-.color-2
-{
-    color: #FFE69C;
-}
-
-.color-3
-{
-    color: #5BDFC1;
-=======
 .sticky{
     position:sticky;
 }
@@ -27,5 +12,10 @@
 
 .color-3{
     color:#5BDFC1;
->>>>>>> pg-luis
+}
+
+.overflow{
+    max-height: 400px;
+    overflow-y: auto;
+    
 }
