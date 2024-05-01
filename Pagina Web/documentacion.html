@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    
     <header>
         <nav class="nav-bar mb-10">
             <ul>
@@ -33,7 +34,7 @@
             </ul>
         </nav>
     </header>
-
+    
     <main class="flex">
         <aside class="flex-basis-2 pd-10 mr-20">
             <div class="txt-c">
@@ -43,7 +44,7 @@
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Formularios</a> <br> <br>
                 <a href="#Tarjetas" class="txt-d-none txt-25 mg-20 txt-c1">Tarjetas</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Alertas</a> <br> <br>
-                <a href="nav" class="txt-d-none txt-25 mg-20 txt-c1">Nav-bar</a> <br> <br>
+                <a href="#nav" class="txt-d-none txt-25 mg-20 txt-c1">Nav-bar</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Badges</a> <br> <br>
                 <a href="" class="txt-d-none txt-25 mg-20 txt-c1">Contenedores</a> <br> <br>
             </div>
@@ -228,8 +229,8 @@
                     </pre>
                 </div> 
                 <br> 
-                <!--Aqui va la 4 targeta-->
-                <p class="mt-20 txt-bold txt-20 txt-c5">Cuarto estilo</p>
+                <!--Aqui va la 4 targeta
+                <p class="mt-20 txt-bold txt-20 txt-c5">Cuarto estilo</p>-->
                 <br>
                 <!--
                 <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
@@ -242,7 +243,7 @@
                     </div>
                 </div>
                 <br>-->
-                <!--Aqui ira el codigo-->
+                <!--Aqui ira el codigo
                 <br>
                 <div class="contenedor-1 mt-5 redondear-1  pl-20">
                     <pre>
@@ -256,7 +257,7 @@
                             <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
                         </code>
                     </pre>
-                </div>
+                </div>-->
             </div>            
             
             <!--aqui iran los nav bares-->
@@ -337,66 +338,158 @@
             </div>
 
              <!--Sombras para elementos utilitarios-->
-        
-            <div class="mg-auto pd-20 mg-20 contenedor-4 redondear-1 contenedor-4 pd-20 mg-20">
-                <p class="mt-20 txt-bold txt-40 txt-c5 txt-c mb-20">Elemento utilitario para sombras</p>
-                <div class="mt-10 contenedor-1 mt-5 redondear-1 flex pl-20 mb-20 mg-20">
-
-                    <div class="flex-basis-5 pd-20">
-
-                        <h3 class="color-3 txt-30 mb-20 mg-20">Algunas propiedades</h3>
-
-                        <p class="color-1 mb-20 txt-20 mg-20">box-shadow:
-                             5px 5px 10px ColorFondoElementos.$bg_principal;
-                        </p>
-                        <br>
-                        <p class="color-1 mb-20 txt-20 mg-20">box-shadow: 
-                            5px 5px ColorFondoElementos.$color_title 
-                            inset, 5px 5px ColorFondoElementos.$color_title;
-                        </p>
-                        <br>
-                        <p class="color-1 mb-20 txt-20 mg-20">box-shadow: 
-                            0px 4px 0px ColorFondoElementos.$bg_principal,
-                            0 -4px 0px ColorFondoElementos.$color_title, 
-                            4px 0px 0px ColorFondoElementos.$bg_principal inset, 
-                            -4px 0px 0px ColorFondoElementos.$color_title inset;</p>
-                        <br>
-                        <p class="color-1 mb-20 txt-20 mg-20"> box-shadow: 
-                            0px 4px 0px ColorFondoElementos.$bg_principal,
-                            0 -4px 0px ColorFondoElementos.$color_title, 
-                            4px 0px 0px ColorFondoElementos.$bg_principal inset, 
-                            -4px 0px 0px ColorFondoElementos.$color_title inset;</p>
-                        <br>
-                        <p class="color-1 mb-20 txt-20 mg-20">filter: drop-shadow(0 0 3px ColorFondoElementos.$color_secundario_rojo);
-                            filter: drop-shadow(0 0 3px ColorFondoElementos.$bg_principal_3);</p>
-                    </div>
-
-                    <div class="flex-basis-5 pd-20">
-
-                        <h3 class="color-3 txt-30 mb-20 mg-20">Clase</h3>
-
-                        <p class="color-1 mb-20 txt-20 mg-20">Sombra-basicona</p>
-                        <br>
-                        <br>
-                        <br>
-                        <p class="color-1 mb-20 txt-20 mg-20">sombra-basicona-mod3D</p>
-                        <br>
-                        <br>
-                        <br>
-                        <br><br><br> 
-                        <p class="color-1 mb-20 txt-20 mg-20">sombra-basicona-xy</p>
-                        <br><br><br> <br><br><br><br><br><br>
-                        <p class="color-1 mb-20 txt-20 mg-20">sombra-basicona-Pxy-Nyz</p>
-                        <br><br><br><br><br>
-                        <p class="color-1 mb-20 txt-20 mg-20">sombra-img-transparente</p>
-                    </div>
-
-                </div>
-
-             </div>
-
+            <div class="contenedor-4 pd-20 mg-20" id="Tarjetas">
+                <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Componentes de Sombras</h2>
+                <p>cuando hablamos de una sombra, nos referimos al efecto visual que se puede agregar a los elementos utilizando CSS. Específicamente, podemos usar la propiedad "box-shadow" en CSS para añadir sombras a los elementos HTML.</p>
+                <br>
+                <p class="mt-5">Bueno en este caso te traemos los diferentes tipos de sombras disponibles<br>
                 
-            </div>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Primer sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">Sombra-basicona</span></p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly Sombra-basicona">
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="https://i.pinimg.com/564x/2c/67/61/2c67614d8e539820049fb8b15a76c888.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="https://i.pinimg.com/564x/2c/c0/58/2cc05801b66ad7fbd8e3521acbaddb3a.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="https://i.pinimg.com/564x/82/8c/b8/828cb8f681383c471c68f88dc8548989.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+                <!--Estilo 2-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Segunda sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">Sombra-basicona-interna</span></p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="Tarjeta__2 Sombra-basicona-interna">
+                        <figure class="card2__contenido">
+                            <img src="/Pagina Web/img/jugadores-posando.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+
+                    <div class="Tarjeta__2 Sombra-basicona-interna">
+                        <figure class="card2__contenido">
+                            <img src="https://i.pinimg.com/564x/7f/9b/e7/7f9be73d4e36b73f611981e22ba0a6ec.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen del de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+
+                </div> 
+                <br>
+                
+                <br>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Tercer sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-mod3D</span></p>
+
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
+                        <div>
+                            <h2>Karim Benzema</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>   
+
+                    <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/34/74/12/347412428050eef38965f49489cf751a.jpg')">
+                        <div>
+                            <h2>Segios Ramos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+
+                    <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')">
+                        <div>
+                            <h2>Toni Kroos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                
+                <!--Aqui va la 4 targeta-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Cuarta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-xy</span></p>
+                
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/30/92/ee/3092ee93c6ceff852cfdb8c42f034622.jpg')">
+                        <div>
+                            <h2>Cristiano Ronaldo</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>   
+
+                    <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/7d/8c/b2/7d8cb2fb5d042133d190b8df34148f5c.jpg')">
+                        <div>
+                            <h2>Lucas Modric</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+
+                    <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/a8/51/dc/a851dc64eb8d102f5a3fc8ed1c0e4dc5.jpg')">
+                        <div>
+                            <h2>David Beckham</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                <!--Aqui ira el codigo-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Sexta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-Pxy-Nyz</span></p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/236x/0a/61/68/0a61683ba2731825e11c2498d620b1f4.jpg')">
+                    </div>
+                    <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/564x/c5/51/1a/c5511a0b0b5d49197278b7cef18a8300.jpg')">
+                    </div> 
+
+                    <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/564x/f2/d0/84/f2d084b4912a8a6efcfa6efd3d9976bf.jpg')">
+                    </div> 
+                </div>
+                <br>    
+                <p class="mt-20 txt-bold txt-20 txt-c5">Quinta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-img-transparente</span></p>
+                <br><br>
+                <div class="contenedor-2 pr-20 redondear-1 flex justify-content-evenly" >
+                    <div class="sombra-img-transparente pd-20">
+                        <img src="/Pagina Web/img/img2.png" height="500px">
+                        <img src="/Pagina Web/img/img3.png" height="450px" class="mb-15">
+                        <img src="/Pagina Web/img/img4.png" height="500px" class="mb-15">
+                    </div> 
+                </div>
+                
+            </div>   
+           
         </div>
 
         </section>
