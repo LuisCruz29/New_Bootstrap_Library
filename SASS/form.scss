@@ -10,38 +10,18 @@
 @use "redondear";
 
 .formulario {
-    border: 1px solid black;
+   
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Ajusta el espacio entre las filas según sea necesario */
-    padding: 20px; /* Añade relleno alrededor del formulario */
-}
-
-form h1 {
-    text-align: center !important;
 }
 
 .row {
-    border: 1px solid black;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-label {
-    width: 30%; /* Cambiado a unidad relativa */
-}
-
-input, select {
-    flex: 1;
+   flex-direction: row;
 }
 
 .column {
-    flex: 1;
-    padding: 10px;
-    display: flex;
-    align-items: center;
+    
+    flex-direction: column;
 }
 
 /* Media queries aquí para ajustes en diferentes tamaños de pantalla */
