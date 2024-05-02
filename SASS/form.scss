@@ -9,40 +9,24 @@
 @use "mover";
 @use "redondear";
 
-
-
 .formulario {
+   
     display: flex;
     flex-direction: column;
 }
-form h1 {
-    text-align: center !important;
-}
-
 
 .row {
     display: flex;
-    justify-content: center;
-    align-items: center; /* Alinea verticalmente los elementos */
-    gap: 10px; /* Espacio entre elementos */
+   flex-direction: row;
 }
-
 
 .column {
-    flex: 1;
-    padding: 10px;
-}
-
-.column{
-    flex-direction: column;
-    
-}
-
-.row{
+    display: flex;
     flex-direction: column;
 }
 
-//celulares
+/* Media queries aquí para ajustes en diferentes tamaños de pantalla */
+
 @media(max-width:500px){
     .sm-column{
         flex-direction: column;
@@ -52,8 +36,6 @@ form h1 {
     }
 }
 
-
-//tables
 @media (min-width:501px) and (max-width:1023px){
     .md-column{
         flex-direction: column;
@@ -63,7 +45,6 @@ form h1 {
     }
 }
 
-//pantallas de resolucion 1024px
 @media (min-width:1024px){
     .bg-column{
         flex-direction: column;

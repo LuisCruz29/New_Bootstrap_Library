@@ -3936,30 +3936,17 @@ a.active, a:hover{
   flex-direction: column;
 }
 
-form h1 {
-  text-align: center !important;
-}
-
 .row {
   display: flex;
-  justify-content: center;
-  align-items: center; /* Alinea verticalmente los elementos */
-  gap: 10px; /* Espacio entre elementos */
+  flex-direction: row;
 }
 
 .column {
-  flex: 1;
-  padding: 10px;
-}
-
-.column {
+  display: flex;
   flex-direction: column;
 }
 
-.row {
-  flex-direction: column;
-}
-
+/* Media queries aquí para ajustes en diferentes tamaños de pantalla */
 @media (max-width: 500px) {
   .sm-column {
     flex-direction: column;
@@ -4034,6 +4021,7 @@ table {
   border-spacing: 0;
 }
 
+<<<<<<< HEAD
 .puntos
 {
   list-style: inside;
@@ -4044,4 +4032,6 @@ table {
   max-width: 200px;
   max-height: auto;
 }
+=======
+>>>>>>> 09fc93e99bf9451b795c6d5212a23450abc289db
 /*# sourceMappingURL=style.css.map */
