@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style_nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <nav class="nav-bar-amburguesa"> 
+    <nav class="nav-bar-amburguesa position"> 
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn"><i class="fa fa-navicon" style="font-size:36px"></i>
         </label>
@@ -29,21 +30,26 @@
             <div class="txt-c bg-wd-100 px-10 flex flex-d-col sticky top-2 overflow-2 ">
                 <h1 class="txt-20 mb-10 pd-20 txt-c contenedor-3 redondear-2 txt-c4">Diferentes elementos</h1> 
                 <a href="#botonones-elemento" class="txt-d-none txt-20 mg-5 txt-c1">Botones</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1">Formularios</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1">Tarjetas</a> 
+                <a href="#formularios" class="txt-d-none txt-20 mg-5 txt-c1">Formularios</a> 
+                <a href="#tarjetas" class="txt-d-none txt-20 mg-5 txt-c1">Tarjetas</a> 
                 <a href="#alertas-elemento" class="txt-d-none txt-20 mg-5 txt-c1">Alertas</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1">Nav-bar</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1">Badges</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1">Contenedores</a> 
+                <a href="#navbar" class="txt-d-none txt-20 mg-5 txt-c1">Nav-bar</a> 
+                <a href="#bagdes" class="txt-d-none txt-20 mg-5 txt-c1">Badges</a> 
+                <a href="#contenedores" class="txt-d-none txt-20 mg-5 txt-c1">Contenedores</a> 
 
                 <h1 class="txt-20 mb-10 pd-20 txt-c contenedor-3 redondear-2 txt-c4 mt-20">Clases Utilitarias</h1> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1">Texto</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1 ">Sombras</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1 ">Margin</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1 ">Mover elementos en la pantalla</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1 ">Redondear elementos</a> 
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1 ">Ocultar elementos</a>
-                <a href="" class="txt-d-none txt-20 mg-5 txt-c1 ">Colores de fondo de elementos</a> 
+                <a href="#texto" class="txt-d-none txt-20 mg-5 txt-c1">Texto</a> 
+                <a href="#sombras" class="txt-d-none txt-20 mg-5 txt-c1 ">Sombras</a> 
+                <a href="#bordes" class="txt-d-none txt-20 mg-5 txt-c1 ">Bordes</a> 
+                <a href="#margin" class="txt-d-none txt-20 mg-5 txt-c1 ">Margin</a> 
+                <a href="#padding" class="txt-d-none txt-20 mg-5 txt-c1 ">Padding</a>
+                <a href="#width" class="txt-d-none txt-20 mg-5 txt-c1 ">Width</a>  
+                <a href="#mover" class="txt-d-none txt-20 mg-5 txt-c1 ">Mover elementos en la pantalla</a> 
+                <a href="#redondear" class="txt-d-none txt-20 mg-5 txt-c1 ">Redondear elementos</a> 
+                <a href="#utilidades-ocultar" class="txt-d-none txt-20 mg-5 txt-c1 ">Ocultar elementos</a>
+                <a href="#utilidades-color-fondo" class="txt-d-none txt-20 mg-5 txt-c1 ">Colores de fondo de elementos</a>     
+                <a href="#flex" class="txt-d-none txt-20 mg-5 txt-c1 ">Flex</a> 
+                <a href="#grid" class="txt-d-none txt-20 mg-5 txt-c1 ">Grid</a> 
 
         </aside>
 
@@ -1013,7 +1019,7 @@
 
             </div>
 
-            <div id="flexbox" class="contenedor-4 pd-20 mg-20 redondear-1">
+            <div id="flex" class="contenedor-4 pd-20 mg-20 redondear-1">
                 <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Flexbox</h2>
                 <p class="mt-5 txt-20 txt-j">Flexbox es un método de diseño de página unidimensional para compaginar elementos en filas o columnas. 
                     Los elementos de contenido se ensanchan para rellenar el espacio adicional y se encogen para caber en espacios más pequeños.
@@ -2177,6 +2183,585 @@
                         
                     </div>
                 </div>
+            </div>
+
+            <div id="formularios" class="contenedor-4 pd-20 mg-20 redondear-1">
+
+                <h2 class="txt-bold txt-cs txt-40 mb-10 txt-c2">Formularios</h2>
+                <p class="txt-20 mb-10 txt-j">En el formulario, los campos de entrada están distribuidos en 
+                    filas y columnas utilizando Flexbox, lo que permite una disposición flexible y adaptable 
+                    a distintos dispositivos. Cada campo de entrada está etiquetado de manera clara y concisa 
+                    para indicar qué tipo de información se espera del usuario.
+                </p>
+        
+                <h2 class="txt-bold txt-c5 txt-30 mb-10">Row</h2>
+                <p class="txt-20 mb-10 txt-j">Cuando se aplica la clase .row a un contenedor HTML, se le está 
+                    dando la instrucción de que los elementos dentro de este contenedor se alineen en una fila 
+                    horizontal. En el contexto de este código, se utiliza para agrupar elementos que deben mostrarse 
+                    en una fila, como etiquetas de texto y campos de entrada.
+                </p>
+        
+                <div class="contenedor-1 txt-20 pd-20 mg-20 redondear-1">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">></span><span class="color-3"> </span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                        </code>
+                    </pre>
+                </div>
+        
+                <h2 class="txt-bold txt-c5 txt-30 mb-10">Column</h2>
+                <p class="txt-20 mb-10 txt-j">La clase .column se utiliza para definir un contenedor flexible
+                    dentro de un diseño de columnas en CSS. Cuando se aplica esta clase a un elemento HTML, se le 
+                    está indicando que se comporte como una columna dentro de un diseño flexible, lo que significa
+                    que los elementos dentro de este contenedor se alinearán en una columna vertical.
+                </p>
+        
+                <div class="contenedor-1 txt-20 pd-20 mg-20 redondear-1 ">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">  //Esta seria una manera de usar<br><br></span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">></span><br><p>      <span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">            //Esta seria una manera de usar<br><br>      </span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
+                        </code>
+                    </pre>
+                </div>
+        
+                <h2 class="txt-bold txt-c5 txt-30 mb-20">Ejemplos</h2>
+        
+                <div class="contenedor-2 pd-20 redondear-1 px-20">
+                    
+                        <form action="" class="formulario wd-80 mg-auto">
+                            <h1 class="txt-20 txt-bold align-self-center mb-10">Formulario</h1>
+        
+                            <div class="row">
+                                <div class="col mg-10 flex-basis-5 ">
+                                    <label for="nombre" class="" >Nombre</label>
+                                    <input type="text" id="nombre" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+                                <div class=" col mg-10 flex-basis-5">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" id="apellido" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="correo">Correo</label>
+                                    <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+        
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="correo">Telefono</label>
+                                    <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="genero">Género</label>
+                                    <div class="gender-radio">
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="male">Masculino</label>
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="female">Femenino</label>
+                                    </div>
+                                </div>
+                                <div class="col mg-10 flex-basis-5">
+                                    <label for="preferencia">Preferencia</label>
+                                    <select id="preferencia" class="borde-1-s-c1 redondear-2 wd-100">
+                                        <option value="opcion1">Opción 1</option>
+                                        <option value="opcion2">Opción 2</option>
+                                        <option value="opcion3">Opción 3</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="row my-10 ">
+                                <button type="submit" class="btn-50-azul flex-basis-10">Enviar</button>
+                            </div>
+                        </form>
+                    
+                </div>
+
+                <div class="contenedor-1 pd-20 mt-20 redondear-1 overflow">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4">&lt;</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span><span class="color-3"> Formulario</span><span class="txt-c4">&lt;/</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"nombre"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Nombre</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"nombre"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"correo"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Correo</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"correo"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2">Género</span></p>
+                            <p>        <div class="gender-radio"></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"male"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"male"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Masculino</span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"female"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"female"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Femenino</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2">Preferencia</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">select</span><span class="txt-c4"> id=</span><span class="color-3">"preferencia"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion1"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 1</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion2"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 2</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion3"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 3</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">select</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Opcion 1</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
+                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
+                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
+                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">button</span><span class="txt-c4"> type=</span><span class="color-3">"submit"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"btn-50-azul"</span><span class="txt-c4">&gt;</span><span class="color-3">Enviar</span><span class="txt-c4">&lt;/</span><span class="color-1">button</span><span class="txt-c4">&gt;</span></p>
+                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
+                            <p><span class="txt-c4">&lt;/</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
+                        </code>
+                    </pre>
+                </div>
+        
+                <div class="mt-20 contenedor-2 pd-20 redondear-1 px-20">
+                    
+                    <form action="" class="formulario wd-50 mg-auto">
+                        <h1 class="txt-20 txt-bold align-self-center mb-10">Formulario</h1>
+        
+                        <div class="col mg-10  ">
+                            <label for="nombre" class="" >Nombre</label>
+                            <input type="text" id="nombre" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+                        <div class=" col mg-10 ">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+                        
+                        <div class="col mg-10">
+                            <label for="correo">Correo</label>
+                            <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+        
+                        <div class="col mg-10">
+                            <label for="correo">Telefono</label>
+                            <input type="text" id="correo" class="borde-1-s-c1 redondear-2 wd-100">
+                        </div>
+                          
+                        <div class="col mg-10 ">
+                            <label for="genero">Género</label>
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Masculino</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Femenino</label>
+                            </div>
+                        </div>
+                        <div class="col mg-10">
+                            <label for="preferencia">Preferencia</label>
+                            <select id="preferencia" class="borde-1-s-c1 redondear-2 wd-100">
+                                <option value="opcion1">Opción 1</option>
+                                <option value="opcion2">Opción 2</option>
+                                <option value="opcion3">Opción 3</option>
+                            </select>
+                        </div>
+                            
+                        <div class="row my-10 ">
+                            <button type="submit" class="btn-50-azul flex-basis-10">Enviar</button>
+                        </div>
+                    </form>
+                
+                </div>
+        
+            </div>
+
+            <div class="contenedor-4 pd-20 mg-20" id="tarjetas">
+                <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Tarjetas</h2>
+                <p class="txt-20 txt-j"> las 'cards' son componentes visuales muy utilizados para mostrar información de manera estructurada y atractiva. Son como pequeños contenedores que pueden contener diversos tipos de contenido, como imágenes, texto y enlaces.</p>
+                <p class="mt-5 txt-20 txt-j">Para hacerte el trabajo mas facil contamos con 4 tipos de card con diferentes atributos. <br>
+                     <br> 1.Movimiento en Y
+                     <br>2.Movimiento en X. 
+                     <br> 3.Descriptivas
+                     <br>4.La discriptiva 2.0.
+                </p>
+        
+                <p class="mt-20 txt-bold txt-20 txt-c5">Primer estilo</p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="/Pagina Web/img/img-jugadores1.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+        
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="/Pagina Web/img/img-jugadores2.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="/Pagina Web/img/img-jugadores.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span> <span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"Tarjeta__1"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">figure</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card1__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">img</span><span class="color-2"> src</span><span class="txt-c4"> = </span><span class="color-3">"https://i.pinimg.com/564x/76/2f/87/762f87070797874a430985fe7af98fab.jpg"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">figure</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card1__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h3</span><span class="txt-c4">></span><span class="txt-c4">Imagen de jugadores</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h3</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span><span class="txt-c4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel <br>                         ab distinctio esse. Cupiditate.</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">p</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div> 
+                <!--Estilo 2-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Segundo estilo</p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="Tarjeta__2">
+                        <figure class="card2__contenido">
+                            <img src="/Pagina Web/img/jugadores-posando.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+        
+                    <div class="Tarjeta__2">
+                        <figure class="card2__contenido">
+                            <img src="https://i.pinimg.com/564x/49/24/6b/49246b955900d70327a4387016d11eb0.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen del vicho</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+        
+                </div> 
+                <br>
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span> <span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"Tarjeta__2"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">figure</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card2__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">img</span><span class="color-2"> src</span><span class="txt-c4"> = </span><span class="color-3">"https://i.pinimg.com/564x/76/2f/87/762f87070797874a430985fe7af98fab.jpg"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">figure</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card2__contenido"</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h3</span><span class="txt-c4">></span><span class="txt-c4">Imagen de jugadores</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h3</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span><span class="txt-c4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel <br>                         ab distinctio esse. Cupiditate.</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">p</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+                <br>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Tercer estilo</p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
+                        <div>
+                            <h2>Karim Benzema</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>   
+        
+                    <div class="card_3" style="--i:url('https://i.pinimg.com/564x/34/74/12/347412428050eef38965f49489cf751a.jpg')">
+                        <div>
+                            <h2>Segios Ramos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+        
+                    <div class="card_3" style="--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')">
+                        <div>
+                            <h2>Toni Kroos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                <!--Aqui ira el codigo-->
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card_3"</span><span class="txt-c4"><span class="color-2"> style</span><span class="txt-c4"> = </span><span class="color-3">"--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')"</span>></p>
+                
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">h2</span><span class="txt-c4">></span><span class="txt-c4">Toni Kroos</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">h2</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"><</span><span class="color-1">a</span><span class="txt-c4">></span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4">></span><span class="txt-c4">Ver detalles</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">div</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div> 
+                <br> 
+                <br>
+                
+            </div>            
+            
+            <!--aqui iran los nav bares-->
+            <div class="contenedor-4 pd-20 mg-20" id="navbar">
+                <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Nav Bar</h2>
+                <p class="txt-20 txt-j">se sabe que una barra de navegación es un elemento utilizado en el diseño web para proporcionar una forma de navegación consistente y accesible a través de un sitio web. <br>
+                   Para facilitarte el trabajo de diseñar te traemos dos estilos completamente responsivos.
+                </p>
+                <br>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Primer Estilo</p>
+                <br>
+        
+                <nav class="nav-bar-no-responsive">
+                    <label class="logo">
+                        COLEGAS
+                    </label>
+                    <ul class="nav-bar-ul" >
+                        <li ><a href="#" class="active">Home</a></li>
+                        <li ><a href="#">Home</a></li>
+                        <li ><a href="#">Servicios</a></li>
+                        <li ><a href="#">contact</a></li>
+                        <li><a href="#">feednack</a></li>
+                    </ul>
+                </nav>  
+                <br>
+                <!--Codigo del nav bar 1-->
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">nav</span><span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"nav-bar"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"logo"</span><span class="txt-c4">></p>
+                                <H1 class="txt-c4">                   COLEGAS</h1>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">ul</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"nav-bar-ul"</span><span class="txt-c4">></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a <span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"active"</span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                                <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+        
+                <p class="mt-20 txt-bold txt-20 txt-c5">Segundo Estilo</p>
+                <br>
+                <nav class="nav-bar-2-no">
+                    <label class="logo">
+                        COLEGAS
+                    </label>
+                    <ul class="nav-bar-ul" >
+                        <li ><a href="#" class="active">Home</a></li>
+                        <li ><a href="#">Home</a></li>
+                        <li ><a href="#">Servicios</a></li>
+                        <li ><a href="#">contact</a></li>
+                        <li><a href="#">feednack</a></li>
+                    </ul>
+                </nav>
+                <br>
+                <!--Codigo del nav bar 1-->
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 overflow pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">nav</span><span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"nav-bar-2"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"logo"</span><span class="txt-c4">></p>
+                                <H1 class="txt-c4">                   COLEGAS</h1>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">ul</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"nav-bar-ul"</span><span class="txt-c4">></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a <span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"active"</span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> ></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                                <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        
+             <!--Sombras para elementos utilitarios-->
+            <div class="contenedor-4 pd-20 mg-20" id="sombras">
+                <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Componentes de Sombras</h2>
+                <p class="txt-20 txt-j">cuando hablamos de una sombra, nos referimos al efecto visual que se puede agregar a los elementos utilizando CSS. Específicamente, podemos usar la propiedad "box-shadow" en CSS para añadir sombras a los elementos HTML.</p>
+                <br>
+                <p class="mt-5 txt-20 txt-j" >Bueno en este caso te traemos los diferentes tipos de sombras disponibles<br>
+                
+                <p class="mt-20 txt-bold txt-20 txt-c5">Primer sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">Sombra-basicona</span></p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly Sombra-basicona">
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="https://i.pinimg.com/564x/2c/67/61/2c67614d8e539820049fb8b15a76c888.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+        
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="https://i.pinimg.com/564x/2c/c0/58/2cc05801b66ad7fbd8e3521acbaddb3a.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    <div class="Tarjeta__1">
+                        <figure class="card1__contenido">
+                            <img src="https://i.pinimg.com/564x/82/8c/b8/828cb8f681383c471c68f88dc8548989.jpg">
+                        </figure>
+                        <div class="card1__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <br>
+                <!--Estilo 2-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Segunda sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">Sombra-basicona-interna</span></p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="Tarjeta__2 Sombra-basicona-interna">
+                        <figure class="card2__contenido">
+                            <img src="/Pagina Web/img/jugadores-posando.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+        
+                    <div class="Tarjeta__2 Sombra-basicona-interna">
+                        <figure class="card2__contenido">
+                            <img src="https://i.pinimg.com/564x/7f/9b/e7/7f9be73d4e36b73f611981e22ba0a6ec.jpg">
+                        </figure>
+                        <div class="card2__contenido">
+                            <h3>Imagen del de jugadores</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eum facere quaerat omnis quia minima vel ab distinctio esse. Cupiditate.</p>
+                            <a href="#">leer mas</a>
+                        </div>
+                    </div>
+        
+                </div> 
+                <br>
+                
+                <br>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Tercer sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-mod3D</span></p>
+        
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
+                        <div>
+                            <h2>Karim Benzema</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>   
+        
+                    <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/34/74/12/347412428050eef38965f49489cf751a.jpg')">
+                        <div>
+                            <h2>Segios Ramos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+        
+                    <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')">
+                        <div>
+                            <h2>Toni Kroos</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                
+                <!--Aqui va la 4 targeta-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Cuarta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-xy</span></p>
+                
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/30/92/ee/3092ee93c6ceff852cfdb8c42f034622.jpg')">
+                        <div>
+                            <h2>Cristiano Ronaldo</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div>   
+        
+                    <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/7d/8c/b2/7d8cb2fb5d042133d190b8df34148f5c.jpg')">
+                        <div>
+                            <h2>Lucas Modric</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+        
+                    <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/a8/51/dc/a851dc64eb8d102f5a3fc8ed1c0e4dc5.jpg')">
+                        <div>
+                            <h2>David Beckham</h2>
+                            <a href="#">Ver Detalles</a>
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                <!--Aqui ira el codigo-->
+                <p class="mt-20 txt-bold txt-20 txt-c5">Sexta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-Pxy-Nyz</span></p>
+                <br>
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                    <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/236x/0a/61/68/0a61683ba2731825e11c2498d620b1f4.jpg')">
+                    </div>
+                    <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/564x/c5/51/1a/c5511a0b0b5d49197278b7cef18a8300.jpg')">
+                    </div> 
+        
+                    <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/564x/f2/d0/84/f2d084b4912a8a6efcfa6efd3d9976bf.jpg')">
+                    </div> 
+                </div>
+                <br>    
+                <p class="mt-20 txt-bold txt-20 txt-c5">Quinta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-img-transparente</span></p>
+                <br><br>
+                <div class="contenedor-2 pr-20 redondear-1 flex justify-content-evenly" >
+                    <div class="sombra-img-transparente pd-20">
+                        <img src="/Pagina Web/img/img2.png" height="500px">
+                        <img src="/Pagina Web/img/img3.png" height="450px" class="mb-15">
+                        <img src="/Pagina Web/img/img4.png" height="500px" class="mb-15">
+                    </div> 
+                </div>
+                
             </div>
 
         </section>

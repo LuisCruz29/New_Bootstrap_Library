@@ -29,3 +29,14 @@
 .position{
     z-index: 10;
 }
+
+.puntos
+{
+  list-style: inside;
+}
+
+.transparencia
+{
+  max-width: 200px;
+  max-height: auto;
+}
