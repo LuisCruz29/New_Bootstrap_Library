@@ -4,110 +4,113 @@
 @use 'margin';
 @use 'mover';
 
+
 .nav-bar-amburguesa{
-    background: #0f2145;
-    height: 80px;
-    width: 100%;
-    box-sizing: border-box;  
-    text-decoration: none;
-    list-style: none;
-    position: fixed;
-    top: 0;
-    left: 0; 
-  }
-  
+  background: #0f2145;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;  
+  text-decoration: none;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0; 
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.nav-bar-amburguesa ul{
+  float: right;
+  margin-right: 20px;
+}
+.nav-bar-amburguesa ul li{
+  display: inline-block;
+  line-height: 80px;
+}
+
+.nav-bar-amburguesa ul li a{
+  color:white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+ a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px; 
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+@media (max-width: 952px){
   label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-  }
-  
-  .nav-bar-amburguesa ul{
-    float: right;
-    margin-right: 20px;
-  }
-  .nav-bar-amburguesa ul li{
-    display: inline-block;
-    line-height: 80px;
-  }
-  
-  .nav-bar-amburguesa ul li a{
-    color:white;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 7px 13px;
-    border-radius: 3px;
-  }
-  
-  a.active, a:hover{
-    background: #1b9bff;
-    transition: .5s;
-  }
-  
-  .checkbtn{
     font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px; 
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+    padding-left: 50px;
   }
-  
-  #check{
-    display: none;
+
+  .nav-bar-amburguesa ul li a{
+    font-size: 16px;
   }
-  
-  @media (max-width: 952px){
-    label.logo{
-      font-size: 30px;
-      padding-left: 50px;
-    }
-  
-    .nav-bar-amburguesa ul li a{
-      font-size: 16px;
-    }
+}
+
+@media (max-width: 952px){
+  .checkbtn{
+    display: block;
   }
-  
-  @media (max-width: 952px){
-    .checkbtn{
-      display: block;
-    }
-  
-    .nav-bar-amburguesa ul{
-      position: sticky;
-      width: 100%;
-      height: auto;
-      background: #2c3e50;
-      top: 80px;
-      left: -100%;
-      text-align: center;
-      transition: all .5s;
-    } 
-  
-    .nav-bar-amburguesa ul li a{
-      font-size: 20px;
-      margin: 50px 0;
-      line-height: 30px;
-    }
-  
-    .nav-bar-amburguesa a:hover, a.active{
-      background: none;
-      color: #0082e6;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
+
+  .nav-bar-amburguesa ul{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  } 
+
+  .nav-bar-amburguesa ul li a{
+    font-size: 20px;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .nav-bar-amburguesa a:hover{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
 }
 
 .nav-bar{
     background-color: ColorFondoElementos.$bg_principal;
     height: 80px;
     width: 100%;
-    list-style: none;
-
+    list-style: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
     label.logo{
         color: ColorFondoElementos.$color_text_white;
         @extend .txt-35;
@@ -118,7 +121,7 @@
     } 
 
 
-    a.active,a:hover{ 
+    a:hover{ 
         background : ColorFondoElementos.$bg_principal_3;
         transition: .5 all;
     }
@@ -156,20 +159,7 @@
     }
 }
 
-/*
-.checkbtn{
-    @extend .txt-30;
-    color: ColorFondoElementos.$color_text_white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
 
-#check{
-    display: none;
-}*/ 
 @media(max-width:1094px){
     
     label.logo{
@@ -313,14 +303,15 @@
     a.active,a:hover{ 
         background : ColorFondoElementos.$bg_principal_3;
         transition: .5 all;
-    }
-
-    
+    }    
 } 
 
 
 ///Nav bar 2
 .nav-bar-2{
+    position: fixed;
+    top: 0;
+    left: 0;
     ul{ 
         float: right;
        @extend .mr-20;
@@ -338,6 +329,7 @@
 }
 
 .nav-bar-2{
+
     ul{
         li{
             a{
@@ -402,7 +394,6 @@
         .nav-bar-ul{
            background:  ColorFondoElementos.$color_text_gray;
            width: 100%;
-           
            text-align: center;
             transition: all  .5s ;
         }
@@ -456,11 +447,7 @@
             position: fixed;
             width: 100%;
             height: 100vh;
-            //no se por que aqui me da error 
-           // @extend .top-8;
            background:  ColorFondoElementos.$color_text_gray;
-            //no se por que aqui me da error 
-            //@extend .txt-c;
             text-align: center;
             transition: all  .5s ;
             

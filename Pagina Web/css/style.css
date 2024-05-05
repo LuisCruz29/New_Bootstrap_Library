@@ -3492,7 +3492,7 @@ label.logo {
   border-radius: 3px;
 }
 
-a.active, a:hover {
+a:hover {
   background: #1b9bff;
   transition: 0.5s;
 }
@@ -3525,7 +3525,7 @@ a.active, a:hover {
     display: block;
   }
   .nav-bar-amburguesa ul {
-    position: sticky;
+    position: fixed;
     width: 100%;
     height: auto;
     background: #2c3e50;
@@ -3539,7 +3539,7 @@ a.active, a:hover {
     margin: 50px 0;
     line-height: 30px;
   }
-  .nav-bar-amburguesa a:hover, a.active {
+  .nav-bar-amburguesa a:hover {
     background: none;
     color: #0082e6;
   }
@@ -3552,13 +3552,16 @@ a.active, a:hover {
   height: 80px;
   width: 100%;
   list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .nav-bar label.logo {
   color: #fbfdff;
   line-height: 80px;
   padding: 0 100px;
 }
-.nav-bar a.active, .nav-bar a:hover {
+.nav-bar a:hover {
   background: #0255a5;
   transition: 0.5 all;
 }
@@ -3579,20 +3582,6 @@ a.active, a:hover {
   padding: 7px 13px;
 }
 
-/*
-.checkbtn{
-    @extend .txt-30;
-    color: ColorFondoElementos.$color_text_white;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check{
-    display: none;
-}*/
 @media (max-width: 1094px) {
   label.logo {
     font-size: 30px;
@@ -3676,6 +3665,11 @@ a.active, a:hover {
   transition: 0.5 all;
 }
 
+.nav-bar-2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .nav-bar-2 ul {
   float: right;
 }
