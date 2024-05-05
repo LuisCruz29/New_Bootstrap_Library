@@ -201,16 +201,13 @@
   list-style: none;
   box-sizing: border-box;  
 }
-.nav-bar-amburguesa{
+.nav-bar-amburguesa-no{
   background: #0f2145;
   height: 80px;
   width: 100%;
   box-sizing: border-box;  
   text-decoration: none;
   list-style: none;
-  position: fixed;
-  top: 0;
-  left: 0; 
 }
 
 label.logo{
@@ -221,16 +218,16 @@ label.logo{
   font-weight: bold;
 }
 
-.nav-bar-amburguesa ul{
+.nav-bar-amburguesa-no ul{
   float: right;
   margin-right: 20px;
 }
-.nav-bar-amburguesa ul li{
+.nav-bar-amburguesa-no ul li{
   display: inline-block;
   line-height: 80px;
 }
 
-.nav-bar-amburguesa ul li a{
+.nav-bar-amburguesa-no ul li a{
   color:white;
   font-size: 17px;
   text-transform: uppercase;
@@ -263,7 +260,7 @@ a.active, a:hover{
     padding-left: 50px;
   }
 
-  .nav-bar-amburguesa ul li a{
+  .nav-bar-amburguesa-no ul li a{
     font-size: 16px;
   }
 }
@@ -273,7 +270,7 @@ a.active, a:hover{
     display: block;
   }
 
-  .nav-bar-amburguesa ul{
+  .nav-bar-amburguesa-no ul{
     position: fixed;
     width: 100%;
     height: auto;
@@ -282,15 +279,16 @@ a.active, a:hover{
     left: -100%;
     text-align: center;
     transition: all .5s;
+    display: none;
   } 
 
-  .nav-bar-amburguesa ul li a{
+  .nav-bar-amburguesa-no ul li a{
     font-size: 20px;
     margin: 50px 0;
     line-height: 30px;
   }
 
-  .nav-bar-amburguesa a:hover, a.active{
+  .nav-bar-amburguesa-no a:hover, a.active{
     background: none;
     color: #0082e6;
   }
@@ -298,4 +296,3 @@ a.active, a:hover{
     left: 0;
   }
 }
-

@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="/Pagina Web/css/style_nav.css">
+    <link rel="stylesheet" href="/Pagina Web/css/style_nav.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <style>
         .color-1{
             color: #60DFF6;
@@ -261,7 +264,7 @@
             </div>            
             
             <!--aqui iran los nav bares-->
-            <div class="contenedor-4 pd-20 mg-20" id="nav">
+            <div class="contenedor-4 pd-20 mg-20" id="nav" style="overflow: hidden;">
                 <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Nav Bar</h2>
                 <p>se sabe que una barra de navegación es un elemento utilizado en el diseño web para proporcionar una forma de navegación consistente y accesible a través de un sitio web. <br>
                    Para facilitarte el trabajo de diseñar te traemos dos estilos completamente responsivos.
@@ -334,7 +337,53 @@
                                 <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
                         </code>
                     </pre>
-                </div>
+                    
+                </div> 
+
+                <p class="mt-20 txt-bold txt-20 txt-c5">Tercer Estilo</p>
+                <p class="mt-20 txt-bold txt-c5">para usar el icono debemos de agregar lo siguiente <span class="txt-c4" style="color: black;"><</span><span class="color-1">link</span><span class="color-2"> rel</span> <span class="txt-c4" style="color: black;"> = </span><span class="color-3">"stylesheet"</span><span class="color-2"> href</span> <span class="txt-c4" style="color: black;"> = </span><span class="color-3">"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"</span><span class="txt-c4" style="color: black;">></p>
+                <br>
+            
+               <nav class="nav-bar-amburguesa-no"> 
+                    <input type="checkbox" id="check">
+                    <label class = "checkbtn" for = "check"> <i class = "fa fa-navicon" > </i> </label>
+
+                    <label for="" class="logo">
+                        los caballos
+                    </label> 
+
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">servicios</a></li>
+                        <li><a href="#">contacto</a></li>
+                        <li><a href="#">feedback</a></li>
+                    </ul>
+                </nav>
+             
+                <br>
+                <br>
+                <div class="contenedor-1 mt-5 redondear-1  pl-20">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">nav</span><span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"nav-bar-amburguesa"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">input </span><span class="color-2"> type</span><span class="txt-c4"> = </span><span class="color-3">"checkbox"</span><span class="color-2"> id</span><span class="txt-c4"> = </span><span class="color-3">"check"</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"checkbtn"</span><span class="color-2"> for</span><span class="txt-c4"> = </span><span class="color-3">"check"</span><span class="txt-c4">></span><span class="txt-c4"> <</span><span class="color-1">i<span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"fa fa-navicon"</span><span class="txt-c4"> ></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">i</span><span class="txt-c4">></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"logo"</span><span class="txt-c4">></p>
+                                <H1 class="txt-c4">                  los Caballos</h1>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+
+                                <p><span>       </span><span class="txt-c4"><</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a <span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"active"</span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >HOGAR</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >ABOUT</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >SERVICIOS</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >CONTACTOS</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                                <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                                <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>
+                    
+                </div> 
             </div>
 
              <!--Sombras para elementos utilitarios-->
@@ -487,7 +536,6 @@
                         <img src="/Pagina Web/img/img4.png" height="500px" class="mb-15">
                     </div> 
                 </div>
-                
             </div>   
            
         </div>
