@@ -38,7 +38,7 @@
 
 Las opciones que tenemos disponibles para acceder a nuestra libreria son:
 
-- [Descargando el archivo css](https://github.com/twbs/bootstrap/archive/v5.3.3.zip)
+- [Descargando el archivo css](https://drive.google.com/drive/folders/1Nql4HAeeUphggbPgCg--mv9LHw1WWFkk?usp=sharing)
 - Clonando el repositorio: `git clone https://github.com/LuisCruz29/New_Bootstrap_Library.git`
 - [Accediendo a nuestro repositorio](https://github.com/LuisCruz29/New_Bootstrap_Library.git)
 
