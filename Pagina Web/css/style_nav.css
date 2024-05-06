@@ -68,3 +68,99 @@
   text-transform: uppercase;
   padding: 7px 13px;
 }
+
+.nav-bar-amburguesa-no{
+  background: #0f2145;
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;  
+  text-decoration: none;
+  list-style: none;
+}
+
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.nav-bar-amburguesa-no ul{
+  float: right;
+  margin-right: 20px;
+}
+.nav-bar-amburguesa-no ul li{
+  display: inline-block;
+  line-height: 80px;
+}
+
+.nav-bar-amburguesa-no ul li a{
+  color:white;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+a.active, a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px; 
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  .nav-bar-amburguesa-no ul li a{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 952px){
+  .checkbtn{
+    display: block;
+  }
+
+  .nav-bar-amburguesa-no ul{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    display: none;
+  } 
+
+  .nav-bar-amburguesa-no ul li a{
+    font-size: 20px;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .nav-bar-amburguesa-no a:hover, a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}

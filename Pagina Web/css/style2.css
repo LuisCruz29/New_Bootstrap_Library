@@ -1,3 +1,6 @@
+body{
+    box-sizing: border-box;
+}
 .sticky{
     position:sticky;
 }
@@ -17,13 +20,13 @@
 .overflow{
     max-height: 400px;
     overflow-y: auto;
-    
+    overflow-x: auto;
 }
 
 .overflow-2{
     max-height: 500px;
     overflow-y: auto;
-
+   
 }
 
 .position{

@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <header>
-        <nav class="nav-bar-amburguesa position top-2"> 
+<body class="flex flex-d-col">
+   
+    <header class="sm-wd-100 md-wd-100">
+        <nav class="nav-bar-amburguesa position "> 
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn"><i class="fa fa-navicon" style="font-size:36px"></i>
             </label>
@@ -22,12 +23,12 @@
             <ul>
                 <li><a href="index.html" class="">Inicio</a></li>
                 <li><a href="documentacion.html" class="active">Documentacion</a></li>
-                <li><a href="#">Ejemplos</a></li>
             </ul>
         </nav>
     </header>
-    <main class="flex " style="margin-top: 60px;" >
-        <aside class="flex-basis-2  pd-10 mt-10 ">
+    
+    <main class=" flex bg-flex-d-row sm-flex-d-col md-flex-d-col sm-wd-100 md-wd-100" style="margin-top: 60px; " >
+        <aside class="flex-basis-2  pd-10 mt-10">
             <div class="txt-c bg-wd-100 px-10 flex flex-d-col sticky top-2 overflow-2 ">
                 <h1 class="txt-20 mb-10 pd-20 txt-c contenedor-3 redondear-2 txt-c4">Diferentes elementos</h1> 
                 <a href="#botonones-elemento" class="txt-d-none txt-20 mg-5 txt-c1">Botones</a> 
@@ -87,12 +88,12 @@
             <div  class="pd-20 mg-20 contenedor-4 redondear-1">
                 <h2 id="botonones-elemento" class="txt-bold txt-c2 txt-40 mb-10 ">Botones</h2>
 
-                <div class="contenedor-2 mg-20  pd-20 redondear-1 flex justify-content-evenly">
-                    <button class="btn-10-azul mr-20 txt-25">Boton 1</button>
-                    <button class="btn-10-transparente mr-20 txt-25">Boton 2</button>
-                    <button class="btn-10-tres mr-20 txt-25">Boton 3</button>
-                    <button class="btn-10-cuatro mr-20 txt-25">Boton 4</button>
-                    <button class="btn-10-cinco mr-20 txt-25">Boton 5</button>
+                <div class="contenedor-2 mg-20  pd-20 redondear-1 flex bg-justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-15">
+                    <button class="btn-10-azul mr-20 txt-25 sm-flex-basis-10 md-flex-basis-10">Boton 1</button>
+                    <button class="btn-10-transparente mr-20 txt-25 sm-flex-basis-10 md-flex-basis-10">Boton 2</button>
+                    <button class="btn-10-tres mr-20 txt-25 sm-flex-basis-10 md-flex-basis-10">Boton 3</button>
+                    <button class="btn-10-cuatro mr-20 txt-25 sm-flex-basis-10 md-flex-basis-10">Boton 4</button>
+                    <button class="btn-10-cinco mr-20 txt-25 sm-flex-basis-10 md-flex-basis-10">Boton 5</button>
                 </div>
 
                 <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1">
@@ -205,7 +206,7 @@
                     <span class="badge-circular-c2-bg">bg</span>
                     
                 </div>
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-1-sm"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
@@ -228,7 +229,7 @@
                     <span class="badge-circular-c5-bg">bg</span>
                     
                 </div>
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-2-sm"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
@@ -251,7 +252,7 @@
                     <span class="badge-circular-c3-bg">bg</span>
                     
                 </div>
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-3-sm"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
@@ -274,7 +275,7 @@
                     <span class="badge-circular-c4-bg">bg</span>
                     
                 </div>
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-4-sm"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
@@ -297,7 +298,7 @@
                     <span class="badge-circular-c1-bg">bg</span>
                     
                 </div>
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">span</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"badge-5-sm"</span><span class="txt-c4">></span><span class="txt-c4">sm</span><span class="txt-c4"><</span><span class="color-1">span</span><span class="txt-c4">></span></p>
@@ -322,7 +323,7 @@
                     <div class="alert-exito-sbd mg-20  pd-20">Alerta Exito sin borde</div>
                 </div>
 
-                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1">
+                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1 overflow">
                     <p class="mt-15 pl-20 mb-20 ">
                         < <span class="color-1"> div </span> <span class="color-2">class</span> = <span class="color-3">"alert-exito-bd"</span> > Alerta Exito con borde < / <span class="color-1"> div </span>>
                     </p>
@@ -341,7 +342,7 @@
                     <div class="alert-advertencia-sbd mg-20  pd-20">Alerta Advertencia sin borde</div>
                 </div>
 
-                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1">
+                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1 overflow">
                     <p class="mt-15 pl-20 mb-20 ">
                         < <span class="color-1"> div </span> <span class="color-2">class</span> = <span class="color-3">"alert-advertencia-bd"</span> > Alerta Advertencia con borde < / <span class="color-1"> div </span>>
                     </p>
@@ -360,7 +361,7 @@
                     <div class="alert-error-sbd mg-20  pd-20">Alerta Error sin borde</div>
                 </div>
 
-                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1">
+                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1 overflow">
                     <p class="mt-15 pl-20 mb-20 ">
                         < <span class="color-1"> div </span> <span class="color-2">class</span> = <span class="color-3">"alert-error-bd"</span> > Alerta Error con borde < / <span class="color-1"> div </span>>
                     </p>
@@ -379,7 +380,7 @@
                     <div class="alert-gris-sbd mg-20 pd-20">Alerta de Color Gris sin borde</div>
                 </div>
 
-                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1">
+                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1 overflow">
                     <p class="mt-15 pl-20 mb-20 ">
                         < <span class="color-1"> div </span> <span class="color-2">class</span> = <span class="color-3">"alert-gris-bd"</span> > Alerta de Color Gris con borde < / <span class="color-1"> div </span>>
                     </p>
@@ -398,7 +399,7 @@
                     <div class="alert-azul-sbd mg-20 pd-20">Alerta de Color Azul sin borde</div>
                 </div>
 
-                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1">
+                <div class="contenedor-1 mg-20 txt-c4 pd-20 txt-20 redondear-1 overflow">
                     <p class="mt-15 pl-20 mb-20 ">
                         < <span class="color-1"> div </span> <span class="color-2">class</span> = <span class="color-3">"alert-azul-bd"</span> > Alerta de Color Azul con borde < / <span class="color-1"> div </span>>
                     </p>
@@ -417,11 +418,11 @@
 
                 <p class="mt-20 txt-bold txt-40 txt-c5 txt-c mb-20">Variables de colores de fondo para nuestros elementos</p>
 
-                <div class="mt-10 contenedor-1 mt-5 redondear-1 flex pl-20 mb-20 mg-20">
+                <div class="mt-10 contenedor-1 mt-5 redondear-1 flex pl-20 mb-20 mg-20 overflow">
 
                     <div class="flex-basis-5 pd-20 txt-20">
 
-                        <h3 class="color-3 txt-20 mb-20 mg-20">Variable</h3>
+                        <h3 class="color-3 txt-30 mb-20 mg-20">Variable</h3>
 
                         <p class="color-1 mb-20  mg-20">$bg_principal</p>
                         <p class="color-1 mb-20  mg-20">$bg_princpal_2</p>
@@ -466,7 +467,7 @@
 
                 <p class="mt-20 txt-bold txt-30 txt-c5 mb-20 pl-20"> Elemento utilitario para ocultar elemento </p>
 
-                <div class="mt-10 contenedor-1 mt-5 redondear-1 flex pl-20 mb-20 mg-20 txt-20">
+                <div class="mt-10 contenedor-1 mt-5 redondear-1 flex pl-20 mb-20 mg-20 txt-20 overflow">
 
                     <div class="flex-basis-5 pd-20">
 
@@ -496,15 +497,15 @@
 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Primer Estilo</p>
                 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-s-c1 pd-5">Primer Estilo</p>
-                    <p class="borde-2-s-c1  pd-5">Primer Estilo</p>
-                    <p class="borde-3-s-c1  pd-5">Primer Estilo</p>
-                    <p class="borde-4-s-c1  pd-5">Primer Estilo</p>
-                    <p class="borde-5-s-c1  pd-5">Primer Estilo</p>
+                <div class="contenedor-2  pt-20 px-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-s-c1 pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-2-s-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-3-s-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-4-s-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-5-s-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 pl-20 txt-20">
+                <div class=" contenedor-1 mt-5 redondear-1 pl-20 txt-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-s-c1"</span><span class="txt-c4">></span><span class="txt-c4">Primer Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -516,15 +517,15 @@
                     </pre>
                 </div>
 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-ds-c1 pd-5">Primer Estilo</p>
-                    <p class="borde-2-ds-c1  pd-5">Primer Estilo</p>
-                    <p class="borde-3-ds-c1  pd-5">Primer Estilo</p>
-                    <p class="borde-4-ds-c1  pd-5">Primer Estilo</p>
-                    <p class="borde-5-ds-c1  pd-5">Primer Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-ds-c1 pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-2-ds-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-3-ds-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-4-ds-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
+                    <p class="borde-5-ds-c1  pd-5 sm-flex-basis-10 md-flex-basis-10">Primer Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1  pl-20 txt-20">
+                <div class=" contenedor-1 mt-5 redondear-1  pl-20 txt-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-ds-c1"</span><span class="txt-c4">></span><span class="txt-c4">Primer Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -538,15 +539,15 @@
 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Segundo Estilo</p>
                 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-s-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-2-s-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-3-s-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-4-s-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-5-s-c2 pd-5">Segundo Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-s-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-2-s-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-3-s-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-4-s-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-5-s-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1  txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1  txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-s-c2"</span><span class="txt-c4">></span><span class="txt-c4">Segundo Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -558,15 +559,15 @@
                     </pre>
                 </div>
 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-ds-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-2-ds-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-3-ds-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-4-ds-c2 pd-5">Segundo Estilo</p>
-                    <p class="borde-5-ds-c2 pd-5">Segundo Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-ds-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-2-ds-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-3-ds-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-4-ds-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
+                    <p class="borde-5-ds-c2 pd-5 sm-flex-basis-10 md-flex-basis-10">Segundo Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20  pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20  pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-ds-c2"</span><span class="txt-c4">></span><span class="txt-c4">Segundo Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -580,15 +581,15 @@
 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Tercer Estilo</p>
                 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-s-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-2-s-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-3-s-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-4-s-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-5-s-c3 pd-5">Tercer Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5 " >
+                    <p class="borde-1-s-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-2-s-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-3-s-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-4-s-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-5-s-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-s-c3"</span><span class="txt-c4">></span><span class="txt-c4">Tercer Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -600,15 +601,15 @@
                     </pre>
                 </div>
 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-ds-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-2-ds-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-3-ds-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-4-ds-c3 pd-5">Tercer Estilo</p>
-                    <p class="borde-5-ds-c3 pd-5">Tercer Estilo</p>
+                <div class="contenedor-2  pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-ds-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-2-ds-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-3-ds-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-4-ds-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
+                    <p class="borde-5-ds-c3 pd-5 sm-flex-basis-10 md-flex-basis-10">Tercer Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-ds-c3"</span><span class="txt-c4">></span><span class="txt-c4">Tercer Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -622,15 +623,15 @@
 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Cuarto Estilo</p>
                 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-s-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-2-s-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-3-s-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-4-s-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-5-s-c4 pd-5">Cuarto Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-s-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-2-s-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-3-s-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-4-s-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-5-s-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-s-c4"</span><span class="txt-c4">></span><span class="txt-c4">Cuarto Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -642,15 +643,15 @@
                     </pre>
                 </div>
 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-ds-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-2-ds-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-3-ds-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-4-ds-c4 pd-5">Cuarto Estilo</p>
-                    <p class="borde-5-ds-c4 pd-5">Cuarto Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-ds-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-2-ds-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-3-ds-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-4-ds-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
+                    <p class="borde-5-ds-c4 pd-5 sm-flex-basis-10 md-flex-basis-10">Cuarto Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-ds-c4"</span><span class="txt-c4">></span><span class="txt-c4">Cuarto Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -664,15 +665,15 @@
 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Quinto Estilo</p>
                 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-s-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-2-s-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-3-s-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-4-s-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-5-s-c5 pd-5">Quinto Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-s-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-2-s-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-3-s-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-4-s-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-5-s-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-s-c5"</span><span class="txt-c4">></span><span class="txt-c4">Quinto Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -684,15 +685,15 @@
                     </pre>
                 </div>
 
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <p class="borde-1-ds-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-2-ds-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-3-ds-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-4-ds-c5 pd-5">Quinto Estilo</p>
-                    <p class="borde-5-ds-c5 pd-5">Quinto Estilo</p>
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-gap-5 sm-flex-d-row sm-flex-wrap md-flex-d-row md-flex-wrap md-gap-5" >
+                    <p class="borde-1-ds-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-2-ds-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-3-ds-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-4-ds-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
+                    <p class="borde-5-ds-c5 pd-5 sm-flex-basis-10 md-flex-basis-10">Quinto Estilo</p>
                 </div>
 
-                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class=" contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">p</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"borde-1-ds-c5"</span><span class="txt-c4">></span><span class="txt-c4">Quinto Estilo</span><span class="txt-c4"><</span><span class="color-1">p</span><span class="txt-c4">></span></p>
@@ -899,35 +900,35 @@
                     </div>
                     <div class="flex-basis-5 pd-10 ">
                         <h3 class="color-3 txt-20 mb-10">Propiedad</h3>
-                        <p class="color-1 mb-10">margin: auto;</p>
-                        <p class="color-1 mb-10">margin: 5px;</p>
-                        <p class="color-1 mb-10">margin: 10px</p>
-                        <p class="color-1 mb-10">margin: 15px</p>
-                        <p class="color-1 mb-10">margin: 20px</p>
-                        <p class="color-1 mb-10">margin-left: 5px; margin-rigth: 5px;</p>
-                        <p class="color-1 mb-10">margin-left: 10px; margin-rigth: 10px;</p>
-                        <p class="color-1 mb-10">margin-left: 15px; margin-rigth: 15px;</p>
-                        <p class="color-1 mb-10">margin-left: 20px; margin-rigth: 20px;</p>
-                        <p class="color-1 mb-10">margin-top: 5px; margin-bottom: 5px;</p>
-                        <p class="color-1 mb-10">margin-top: 10px; margin-bottom: 10px;</p>
-                        <p class="color-1 mb-10">margin-top: 15px; margin-bottom: 15px;</p>
-                        <p class="color-1 mb-10">margin-top: 20px; margin-bottom: 20px;</p>
-                        <p class="color-1 mb-10">margin-left: 5px;</p>
-                        <p class="color-1 mb-10">margin-left: 10px;</p>
-                        <p class="color-1 mb-10">margin-left: 15px;</p>
-                        <p class="color-1 mb-10">margin-left: 20px;</p>
-                        <p class="color-1 mb-10">margin-right: 5px</p>
-                        <p class="color-1 mb-10">margin-right: 10px</p>
-                        <p class="color-1 mb-10">margin-right: 15px</p>
-                        <p class="color-1 mb-10">margin-right: 20px</p>
-                        <p class="color-1 mb-10">margin-top: 5px</p>
-                        <p class="color-1 mb-10">margin-top: 10px</p>
-                        <p class="color-1 mb-10">margin-top: 15px</p>
-                        <p class="color-1 mb-10">margin-top: 20px</p>
-                        <p class="color-1 mb-10">margin-bottom: 5px</p>
-                        <p class="color-1 mb-10">margin-bottom: 10px</p>
-                        <p class="color-1 mb-10">margin-bottom: 15px</p>
-                        <p class="color-1 mb-10">margin-bottom: 20px</p>
+                        <p class="color-2 mb-10">margin: auto;</p>
+                        <p class="color-2 mb-10">margin: 5px;</p>
+                        <p class="color-2 mb-10">margin: 10px</p>
+                        <p class="color-2 mb-10">margin: 15px</p>
+                        <p class="color-2 mb-10">margin: 20px</p>
+                        <p class="color-2 mb-10">margin-left: 5px; margin-rigth: 5px;</p>
+                        <p class="color-2 mb-10">margin-left: 10px; margin-rigth: 10px;</p>
+                        <p class="color-2 mb-10">margin-left: 15px; margin-rigth: 15px;</p>
+                        <p class="color-2 mb-10">margin-left: 20px; margin-rigth: 20px;</p>
+                        <p class="color-2 mb-10">margin-top: 5px; margin-bottom: 5px;</p>
+                        <p class="color-2 mb-10">margin-top: 10px; margin-bottom: 10px;</p>
+                        <p class="color-2 mb-10">margin-top: 15px; margin-bottom: 15px;</p>
+                        <p class="color-2 mb-10">margin-top: 20px; margin-bottom: 20px;</p>
+                        <p class="color-2 mb-10">margin-left: 5px;</p>
+                        <p class="color-2 mb-10">margin-left: 10px;</p>
+                        <p class="color-2 mb-10">margin-left: 15px;</p>
+                        <p class="color-2 mb-10">margin-left: 20px;</p>
+                        <p class="color-2 mb-10">margin-right: 5px</p>
+                        <p class="color-2 mb-10">margin-right: 10px</p>
+                        <p class="color-2 mb-10">margin-right: 15px</p>
+                        <p class="color-2 mb-10">margin-right: 20px</p>
+                        <p class="color-2 mb-10">margin-top: 5px</p>
+                        <p class="color-2 mb-10">margin-top: 10px</p>
+                        <p class="color-2 mb-10">margin-top: 15px</p>
+                        <p class="color-2 mb-10">margin-top: 20px</p>
+                        <p class="color-2 mb-10">margin-bottom: 5px</p>
+                        <p class="color-2 mb-10">margin-bottom: 10px</p>
+                        <p class="color-2 mb-10">margin-bottom: 15px</p>
+                        <p class="color-2 mb-10">margin-bottom: 20px</p>
                     </div>
                 </div>
 
@@ -2217,7 +2218,7 @@
                     que los elementos dentro de este contenedor se alinearán en una columna vertical.
                 </p>
         
-                <div class="contenedor-1 txt-20 pd-20 mg-20 redondear-1 ">
+                <div class="contenedor-1 txt-20 pd-20 mg-20 redondear-1 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"column"</span><span class="txt-c4">></span><br><br><span class="color-3">  //Esta seria una manera de usar<br><br></span><span class="txt-c4"><</span><span class="color-1">/div<span class="txt-c4">></span></p>
@@ -2284,57 +2285,7 @@
                     
                 </div>
 
-                <div class="contenedor-1 pd-20 mt-20 redondear-1 overflow">
-                    <pre>
-                        <code>
-                            <p><span class="txt-c4">&lt;</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span><span class="color-3"> Formulario</span><span class="txt-c4">&lt;/</span><span class="color-1">h1</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"nombre"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Nombre</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"nombre"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"correo"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Correo</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"correo"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2">Género</span></p>
-                            <p>        <div class="gender-radio"></p>
-                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"male"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"male"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Masculino</span></p>
-                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"radio"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"female"</span> <span class="color-2">name</span><span class="txt-c4">=</span><span class="color-3">"gender"</span> <span class="color-2">value</span><span class="txt-c4">=</span><span class="color-3">"female"</span><span class="txt-c4">&gt;</span></span><span class="color-2">Femenino</span></p>
-                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2">Preferencia</span></p>
-                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">select</span><span class="txt-c4"> id=</span><span class="color-3">"preferencia"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
-                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion1"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 1</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
-                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion2"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 2</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
-                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">option</span><span class="txt-c4"> value=</span><span class="color-3">"opcion3"</span><span class="txt-c4">&gt;</span><span class="color-3">Opcion 3</span><span class="txt-c4">&lt;/</span><span class="color-1">option</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">select</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
-                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Opcion 1</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
-                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4">=</span><span class="color-3">"column"</span><span class="txt-c4">&gt;</span></span></p>
-                            <p>            <span class="color-2"><span class="txt-c4">&lt;</span><span class="color-1">label</span><span class="txt-c4"> for=</span><span class="color-3">"apellido"</span><span class="txt-c4">&gt;</span></span><span class="column"><span class="color-3">Apellido</span></span><span class="txt-c4">&lt;/</span><span class="color-1">label</span><span class="txt-c4">&gt;</span></p>
-                            <p>            <span class="txt-c4">&lt;</span><span class="color-1">input</span><span class="txt-c4"> type=</span><span class="color-3">"text"</span> <span class="color-2">id</span><span class="txt-c4">=</span><span class="color-3">"apellido"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"borde-1-s-c1 redondear-2"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"row"</span><span class="txt-c4">&gt;</span></p>
-                            <p>        <span class="txt-c4">&lt;</span><span class="color-1">button</span><span class="txt-c4"> type=</span><span class="color-3">"submit"</span> <span class="color-2">class</span><span class="txt-c4">=</span><span class="color-3">"btn-50-azul"</span><span class="txt-c4">&gt;</span><span class="color-3">Enviar</span><span class="txt-c4">&lt;/</span><span class="color-1">button</span><span class="txt-c4">&gt;</span></p>
-                            <p>    <span class="txt-c4">&lt;/</span><span class="color-1">div</span><span class="txt-c4">&gt;</span></p>
-                            <p><span class="txt-c4">&lt;/</span><span class="color-1">form</span><span class="txt-c4">&gt;</span></p>
-                        </code>
-                    </pre>
-                </div>
-        
-                <div class="mt-20 contenedor-2 pd-20 redondear-1 px-20">
+                               <div class="mt-20 contenedor-2 pd-20 redondear-1 px-20">
                     
                     <form action="" class="formulario wd-50 mg-auto">
                         <h1 class="txt-20 txt-bold align-self-center mb-10">Formulario</h1>
@@ -2385,7 +2336,7 @@
         
             </div>
 
-            <div class="contenedor-4 pd-20 mg-20" id="tarjetas">
+            <div class="contenedor-4 pd-20 mg-20 redondear-1" id="tarjetas">
                 <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Tarjetas</h2>
                 <p class="txt-20 txt-j"> las 'cards' son componentes visuales muy utilizados para mostrar información de manera estructurada y atractiva. Son como pequeños contenedores que pueden contener diversos tipos de contenido, como imágenes, texto y enlaces.</p>
                 <p class="mt-5 txt-20 txt-j">Para hacerte el trabajo mas facil contamos con 4 tipos de card con diferentes atributos. <br>
@@ -2397,8 +2348,8 @@
         
                 <p class="mt-20 txt-bold txt-20 txt-c5">Primer estilo</p>
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly">
-                    <div class="Tarjeta__1">
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-justify-content-evenly sm-align-items-center Sombra-basicona bg-flex-d-row sm-flex-d-col md-flex-d-row md-flex-wrap md-justify-content-center">
+                    <div class="Tarjeta__1 md-wd-50 ">
                         <figure class="card1__contenido">
                             <img src="/Pagina Web/img/img-jugadores1.jpg">
                         </figure>
@@ -2409,7 +2360,7 @@
                         </div>
                     </div>
         
-                    <div class="Tarjeta__1">
+                    <div class="Tarjeta__1 md-wd-50">
                         <figure class="card1__contenido">
                             <img src="/Pagina Web/img/img-jugadores2.jpg">
                         </figure>
@@ -2419,7 +2370,7 @@
                             <a href="#">leer mas</a>
                         </div>
                     </div>
-                    <div class="Tarjeta__1">
+                    <div class="Tarjeta__1 md-wd-50">
                         <figure class="card1__contenido">
                             <img src="/Pagina Web/img/img-jugadores.jpg">
                         </figure>
@@ -2432,7 +2383,7 @@
                     
                 </div>
                 <br>
-                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">div</span> <span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"Tarjeta__1"</span><span class="txt-c4">></p>
@@ -2450,8 +2401,8 @@
                 <!--Estilo 2-->
                 <p class="mt-20 txt-bold txt-20 txt-c5">Segundo estilo</p>
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <div class="Tarjeta__2">
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-justify-content-evenly sm-align-items-center Sombra-basicona bg-flex-d-row sm-flex-d-col md-flex-d-col md-align-items-center" >
+                    <div class="Tarjeta__2 md-wd-50">
                         <figure class="card2__contenido">
                             <img src="/Pagina Web/img/jugadores-posando.jpg">
                         </figure>
@@ -2462,7 +2413,7 @@
                         </div>
                     </div>
         
-                    <div class="Tarjeta__2">
+                    <div class="Tarjeta__2 md-wd-50">
                         <figure class="card2__contenido">
                             <img src="https://i.pinimg.com/564x/49/24/6b/49246b955900d70327a4387016d11eb0.jpg">
                         </figure>
@@ -2475,7 +2426,7 @@
         
                 </div> 
                 <br>
-                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">div</span> <span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"Tarjeta__2"</span><span class="txt-c4">></p>
@@ -2493,7 +2444,7 @@
                 <br>
                 <p class="mt-20 txt-bold txt-20 txt-c5">Tercer estilo</p>
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-justify-content-evenly sm-align-items-center Sombra-basicona bg-flex-d-row sm-flex-d-col md-flex-d-row md-flex-wrap md-justify-content-center"  >
                     <div class="card_3" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
                         <div>
                             <h2>Karim Benzema</h2>
@@ -2517,7 +2468,7 @@
                 </div>
                 <br>
                 <!--Aqui ira el codigo-->
-                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20">
+                <div class="contenedor-1 mt-5 redondear-1 txt-20 pl-20 overflow">
                     <pre>
                         <code>
                             <p><span class="txt-c4"><</span><span class="color-1">div</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"card_3"</span><span class="txt-c4"><span class="color-2"> style</span><span class="txt-c4"> = </span><span class="color-3">"--i:url('https://i.pinimg.com/564x/25/75/dc/2575dcf9a7e2f5a09fb5853aaa93e58b.jpg')"</span>></p>
@@ -2536,7 +2487,7 @@
             </div>            
             
             <!--aqui iran los nav bares-->
-            <div class="contenedor-4 pd-20 mg-20" id="navbar">
+            <div class="contenedor-4 pd-20 mg-20 redondear-1" id="navbar">
                 <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Nav Bar</h2>
                 <p class="txt-20 txt-j">se sabe que una barra de navegación es un elemento utilizado en el diseño web para proporcionar una forma de navegación consistente y accesible a través de un sitio web. <br>
                    Para facilitarte el trabajo de diseñar te traemos dos estilos completamente responsivos.
@@ -2610,10 +2561,53 @@
                         </code>
                     </pre>
                 </div>
+
+                <p class="mt-20 txt-bold txt-20 txt-c5">Tercer Estilo</p>
+                <p class="mt-20 txt-bold txt-c5">para usar el icono debemos de agregar lo siguiente <span class="txt-c4" style="color: black;"><</span><span class="color-1">link</span><span class="color-2"> rel</span> <span class="txt-c4" style="color: black;"> = </span><span class="color-3">"stylesheet"</span><span class="color-2"> href</span> <span class="txt-c4" style="color: black;"> = </span><span class="color-3">"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"</span><span class="txt-c4" style="color: black;">></p>
+                <br>
+            
+               <nav class="nav-bar-amburguesa-no"> 
+                    <input type="checkbox" id="check">
+                    <label class = "checkbtn" for = "check"> <i class = "fa fa-navicon" > </i> </label>
+
+                    <label for="" class="logo">
+                        los caballos
+                    </label> 
+
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">servicios</a></li>
+                        <li><a href="#">contacto</a></li>
+                        <li><a href="#">feedback</a></li>
+                    </ul>
+                </nav>
+
+                <div class="contenedor-1 mt-5 redondear-1  pl-20 overflow">
+                    <pre>
+                        <code>
+                            <p><span class="txt-c4"><</span><span class="color-1">nav</span><span class="color-2"> class</span> <span class="txt-c4"> = </span><span class="color-3">"nav-bar-amburguesa"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">input </span><span class="color-2"> type</span><span class="txt-c4"> = </span><span class="color-3">"checkbox"</span><span class="color-2"> id</span><span class="txt-c4"> = </span><span class="color-3">"check"</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"checkbtn"</span><span class="color-2"> for</span><span class="txt-c4"> = </span><span class="color-3">"check"</span><span class="txt-c4">></span><span class="txt-c4"> <</span><span class="color-1">i<span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"fa fa-navicon"</span><span class="txt-c4"> ></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">i</span><span class="txt-c4">></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">label</span><span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"logo"</span><span class="txt-c4">></p>
+                            <H1 class="txt-c4">                  los Caballos</h1>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">label</span><span class="txt-c4">></p>
+                
+                            <p><span>       </span><span class="txt-c4"><</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a <span class="color-2"> class</span><span class="txt-c4"> = </span><span class="color-3">"active"</span><span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >HOGAR</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >ABOUT</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >SERVICIOS</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                            <p><span>                 </span><span class="txt-c4"> <</span><span class="color-1">li</span><span class="txt-c4">></span><span class="txt-c4"><span class="txt-c4"> <</span><span class="color-1">a<span class="color-2"> href</span><span class="txt-c4"> = </span><span class="color-3">"#"</span><span class="txt-c4"> >CONTACTOS</span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">a</span><span class="txt-c4">></span></span></span><span class="txt-c4"> <</span><span class="txt-c4">/</span><span class="color-1">li</span><span class="txt-c4">></span></p>
+                            <p><span>       </span><span class="txt-c4"> <</span></span><span class="txt-c4">/</span><span class="color-1">ul</span><span class="txt-c4">></p>
+                            <p><span class="txt-c4"><</span><span class="txt-c4">/</span><span class="color-1">nav</span><span class="txt-c4">></p>
+                        </code>
+                    </pre>      
+                </div>   
+
             </div>
         
              <!--Sombras para elementos utilitarios-->
-            <div class="contenedor-4 pd-20 mg-20" id="sombras">
+            <div class="contenedor-4 pd-20 mg-20 redondear-1" id="sombras">
                 <h2 class="txt-bold txt-c2 txt-40 mb-10 ">Componentes de Sombras</h2>
                 <p class="txt-20 txt-j">cuando hablamos de una sombra, nos referimos al efecto visual que se puede agregar a los elementos utilizando CSS. Específicamente, podemos usar la propiedad "box-shadow" en CSS para añadir sombras a los elementos HTML.</p>
                 <br>
@@ -2621,8 +2615,8 @@
                 
                 <p class="mt-20 txt-bold txt-20 txt-c5">Primer sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">Sombra-basicona</span></p>
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly Sombra-basicona">
-                    <div class="Tarjeta__1">
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-justify-content-evenly sm-align-items-center Sombra-basicona bg-flex-d-row sm-flex-d-col md-flex-d-row md-flex-wrap md-justify-content-center">
+                    <div class="Tarjeta__1 md-wd-50">
                         <figure class="card1__contenido">
                             <img src="https://i.pinimg.com/564x/2c/67/61/2c67614d8e539820049fb8b15a76c888.jpg">
                         </figure>
@@ -2633,7 +2627,7 @@
                         </div>
                     </div>
         
-                    <div class="Tarjeta__1">
+                    <div class="Tarjeta__1 md-wd-50">
                         <figure class="card1__contenido">
                             <img src="https://i.pinimg.com/564x/2c/c0/58/2cc05801b66ad7fbd8e3521acbaddb3a.jpg">
                         </figure>
@@ -2643,7 +2637,7 @@
                             <a href="#">leer mas</a>
                         </div>
                     </div>
-                    <div class="Tarjeta__1">
+                    <div class="Tarjeta__1 md-wd-50">
                         <figure class="card1__contenido">
                             <img src="https://i.pinimg.com/564x/82/8c/b8/828cb8f681383c471c68f88dc8548989.jpg">
                         </figure>
@@ -2659,8 +2653,8 @@
                 <!--Estilo 2-->
                 <p class="mt-20 txt-bold txt-20 txt-c5">Segunda sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">Sombra-basicona-interna</span></p>
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
-                    <div class="Tarjeta__2 Sombra-basicona-interna">
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-flex-d-row sm-flex-d-col bg-justify-content-evenly sm-align-items-center md-flex-d-row md-flex-wrap md-justify-content-center" >
+                    <div class="Tarjeta__2 Sombra-basicona-interna md-wd-50">
                         <figure class="card2__contenido">
                             <img src="/Pagina Web/img/jugadores-posando.jpg">
                         </figure>
@@ -2671,7 +2665,7 @@
                         </div>
                     </div>
         
-                    <div class="Tarjeta__2 Sombra-basicona-interna">
+                    <div class="Tarjeta__2 Sombra-basicona-interna md-wd-50">
                         <figure class="card2__contenido">
                             <img src="https://i.pinimg.com/564x/7f/9b/e7/7f9be73d4e36b73f611981e22ba0a6ec.jpg">
                         </figure>
@@ -2689,7 +2683,7 @@
                 <p class="mt-20 txt-bold txt-20 txt-c5">Tercer sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-mod3D</span></p>
         
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-flex-d-row sm-flex-d-col bg-justify-content-evenly sm-align-items-center md-flex-d-row md-flex-wrap md-justify-content-center" >
                     <div class="card_3 sombra-basicona-mod3D" style="--i:url('https://i.pinimg.com/564x/18/6f/b4/186fb40fbfacf842fd63592afb2efe9f.jpg')">
                         <div>
                             <h2>Karim Benzema</h2>
@@ -2717,7 +2711,7 @@
                 <p class="mt-20 txt-bold txt-20 txt-c5">Cuarta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-xy</span></p>
                 
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                <div class="contenedor-2 pl-20 pt-20 pr-20 pb-10 mt-15 redondear-1 flex bg-flex-d-row sm-flex-d-col bg-justify-content-evenly sm-align-items-center md-flex-d-row md-flex-wrap md-justify-content-center" >
                     <div class="card_3 sombra-basicona-xy" style="--i:url('https://i.pinimg.com/564x/30/92/ee/3092ee93c6ceff852cfdb8c42f034622.jpg')">
                         <div>
                             <h2>Cristiano Ronaldo</h2>
@@ -2741,9 +2735,9 @@
                 </div>
                 <br>
                 <!--Aqui ira el codigo-->
-                <p class="mt-20 txt-bold txt-20 txt-c5">Sexta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-Pxy-Nyz</span></p>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Quinta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-basicona-Pxy-Nyz</span></p>
                 <br>
-                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly" >
+                <div class="contenedor-2  pt-20 pr-20 pb-10 mt-15 redondear-1 flex justify-content-evenly sm-flex-d-col sm-align-items-center md-flex-d-row md-flex-wrap md-justify-content-center"  >
                     <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/236x/0a/61/68/0a61683ba2731825e11c2498d620b1f4.jpg')">
                     </div>
                     <div class="card_3 sombra-basicona-Pxy-Nyz" style="--i:url('https://i.pinimg.com/564x/c5/51/1a/c5511a0b0b5d49197278b7cef18a8300.jpg')">
@@ -2753,13 +2747,13 @@
                     </div> 
                 </div>
                 <br>    
-                <p class="mt-20 txt-bold txt-20 txt-c5">Quinta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-img-transparente</span></p>
+                <p class="mt-20 txt-bold txt-20 txt-c5">Sexta sombra usando la clase <span class="color-3 mt-20 txt-bold txt-20 txt-c5">sombra-img-transparente</span></p>
                 <br><br>
-                <div class="contenedor-2 pr-20 redondear-1 flex justify-content-evenly" >
-                    <div class="sombra-img-transparente pd-20">
-                        <img src="/Pagina Web/img/img2.png" height="500px">
+                <div class="contenedor-2 pl-20 pr-20 redondear-1 flex bg-flex-d-row sm-flex-d-col bg-justify-content-evenly sm-align-items-center md-flex-d-row md-flex-wrap md-justify-content-center " >
+                    <div class="sombra-img-transparente pd-20 ">
+                        <img src="/Pagina Web/img/img2.png" height="450px">
                         <img src="/Pagina Web/img/img3.png" height="450px" class="mb-15">
-                        <img src="/Pagina Web/img/img4.png" height="500px" class="mb-15">
+                        <img src="/Pagina Web/img/img4.png" height="450px" class="mb-15">
                     </div> 
                 </div>
                 
@@ -2768,22 +2762,22 @@
         </section>
     </main>
 
-    <footer class="contenedor-3 pd-10">
+    <footer class=" contenedor-3 pd-10 sm-flex sm-flex-d-col  ">
         <h2 class="txt-c4 txt-c txt-35">Desarroladores de La Library</h2>
-    <div class=" pd-10 flex">
+        <div class=" pd-10 flex sm-flex-d-col md-flex-d-col md-align-items-center">
 
-        <div class="txt-c4 flex-basis-3 mt-20 txt-c">
-            <img src="logoues-removebg-preview.png" alt="" class="transparencia">
-        </div>
+            <div class="txt-c4 flex-basis-3 mt-20 txt-c">
+                <img src="logoues-removebg-preview.png" alt="" class="transparencia">
+            </div>
 
 
-        <div class="txt-c4 flex-basis-7 mt-20 txt-c pd-10 pl-20">
-            <h3 class="txt-25">Luis Alejandro Cruz Portillo</h3> <br>
-            <h3 class="txt-25">Critian Geovany Rubio Garcia</h3> <br>
-            <h3 class="txt-25">Santos Josue Romero Ochoa</h3> <br>
-            <h3 class="txt-25">Kevin Nathanael Granados Perez</h3>
-            <p></p>
-        </div>
+            <div class="txt-c4 flex-basis-7 mt-20 txt-c pd-10 pl-20">
+                <h3 class="txt-25">Luis Alejandro Cruz Portillo</h3> <br>
+                <h3 class="txt-25">Critian Geovany Rubio Garcia</h3> <br>
+                <h3 class="txt-25">Santos Josue Romero Ochoa</h3> <br>
+                <h3 class="txt-25">Kevin Nathanael Granados Perez</h3>
+                <p></p>
+            </div>
 
         
         
